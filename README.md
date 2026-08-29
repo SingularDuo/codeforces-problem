@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 113 | 30 |
+| 124 | 32 |
 
 ---
 
@@ -15,33 +15,35 @@
 - [*special](#special) (1)
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (3)
-- [binary search](#binary-search) (18)
+- [binary search](#binary-search) (20)
 - [bitmasks](#bitmasks) (8)
-- [brute force](#brute-force) (24)
+- [brute force](#brute-force) (25)
 - [combinatorics](#combinatorics) (4)
-- [constructive algorithms](#constructive-algorithms) (12)
-- [data structures](#data-structures) (9)
-- [dfs and similar](#dfs-and-similar) (8)
-- [dp](#dp) (17)
+- [constructive algorithms](#constructive-algorithms) (13)
+- [data structures](#data-structures) (13)
+- [dfs and similar](#dfs-and-similar) (10)
+- [divide and conquer](#divide-and-conquer) (1)
+- [dp](#dp) (19)
 - [dsu](#dsu) (3)
 - [expression parsing](#expression-parsing) (1)
-- [games](#games) (2)
+- [games](#games) (3)
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (3)
-- [graphs](#graphs) (7)
-- [greedy](#greedy) (39)
+- [graphs](#graphs) (10)
+- [greedy](#greedy) (42)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (38)
+- [implementation](#implementation) (39)
 - [interactive](#interactive) (1)
-- [math](#math) (47)
-- [number theory](#number-theory) (11)
-- [shortest paths](#shortest-paths) (3)
-- [sortings](#sortings) (9)
+- [math](#math) (50)
+- [number theory](#number-theory) (12)
+- [probabilities](#probabilities) (1)
+- [shortest paths](#shortest-paths) (4)
+- [sortings](#sortings) (10)
 - [string suffix structures](#string-suffix-structures) (1)
 - [strings](#strings) (5)
-- [ternary search](#ternary-search) (1)
+- [ternary search](#ternary-search) (2)
 - [trees](#trees) (4)
-- [two pointers](#two-pointers) (5)
+- [two pointers](#two-pointers) (7)
 
 ---
 
@@ -87,6 +89,8 @@
 | 2114A | [Square Year](https://codeforces.com/contest/2114/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2114/A%20-%20Square%20Year/solution.cpp) |
 | 2132D | [From 1 to Infinity](https://codeforces.com/contest/2132/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2132/D%20-%20From%201%20to%20Infinity/solution.cpp) |
 | 2146C | [Wrong Binary Search](https://codeforces.com/contest/2146/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2146/C%20-%20Wrong%20Binary%20Search/solution.cpp) |
+| 2149F | [Nezuko in the Clearing](https://codeforces.com/contest/2149/problem/F) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/F%20-%20Nezuko%20in%20the%20Clearing/solution.cpp) |
+| 2149G | [Buratsuta 3](https://codeforces.com/contest/2149/problem/G) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/G%20-%20Buratsuta%203/solution.cpp) |
 
 ### bitmasks
 
@@ -129,6 +133,7 @@
 | 2144A | [Cut the Array](https://codeforces.com/contest/2144/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2144/A%20-%20Cut%20the%20Array/solution.cpp) |
 | 2144D | [Price Tags](https://codeforces.com/contest/2144/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2144/D%20-%20Price%20Tags/solution.cpp) |
 | 2146A | [Equal Occurrences](https://codeforces.com/contest/2146/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2146/A%20-%20Equal%20Occurrences/solution.cpp) |
+| 2149G | [Buratsuta 3](https://codeforces.com/contest/2149/problem/G) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/G%20-%20Buratsuta%203/solution.cpp) |
 
 ### combinatorics
 
@@ -148,6 +153,7 @@
 | 467B | [Fedor and New Game](https://codeforces.com/contest/467/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/467/B%20-%20Fedor%20and%20New%20Game/solution.cpp) |
 | 484E | [Sign on Fence](https://codeforces.com/contest/484/problem/E) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/484/E%20-%20Sign%20on%20Fence/solution.cpp) |
 | 1088D | [Ehab and another another xor problem](https://codeforces.com/contest/1088/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1088/D%20-%20Ehab%20and%20another%20another%20xor%20problem/solution.cpp) |
+| 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.cpp) |
 | 2041E | [Beautiful Array](https://codeforces.com/contest/2041/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2041/E%20-%20Beautiful%20Array/solution.cpp) |
 | 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2104/C%20-%20Card%20Game/solution.cpp) |
 | 2108B | [SUMdamental Decomposition](https://codeforces.com/contest/2108/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2108/B%20-%20SUMdamental%20Decomposition/solution.cpp) |
@@ -169,11 +175,16 @@
 | 2085D | [Serval and Kaitenzushi Buffet](https://codeforces.com/contest/2085/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2085/D%20-%20Serval%20and%20Kaitenzushi%20Buffet/solution.cpp) |
 | 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.cpp) |
 | 2108C | [Neo's Escape](https://codeforces.com/contest/2108/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2108/C%20-%20Neo's%20Escape/solution.cpp) |
+| 2133F | [Flint and Steel](https://codeforces.com/contest/2133/problem/F) | 3000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2133/F%20-%20Flint%20and%20Steel/solution.cpp) |
+| 2149E | [Hidden Knowledge of the Ancients](https://codeforces.com/contest/2149/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/E%20-%20Hidden%20Knowledge%20of%20the%20Ancients/solution.cpp) |
+| 2149G | [Buratsuta 3](https://codeforces.com/contest/2149/problem/G) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/G%20-%20Buratsuta%203/solution.cpp) |
+| 2152C | [Triple Removal](https://codeforces.com/contest/2152/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2152/C%20-%20Triple%20Removal/solution.cpp) |
 
 ### dfs and similar
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 427C | [Checkposts](https://codeforces.com/contest/427/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/427/C%20-%20Checkposts/solution.cpp) |
 | 468B | [Two Sets](https://codeforces.com/contest/468/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/468/B%20-%20Two%20Sets/solution.cpp) |
 | 520B | [Two Buttons](https://codeforces.com/contest/520/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/520/B%20-%20Two%20Buttons/solution.cpp) |
 | 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
@@ -181,7 +192,14 @@
 | 744A | [Hongcow Builds A Nation](https://codeforces.com/contest/744/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/744/A%20-%20Hongcow%20Builds%20A%20Nation/solution.cpp) |
 | 1139C | [Edgy Trees](https://codeforces.com/contest/1139/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1139/C%20-%20Edgy%20Trees/solution.cpp) |
 | 1328E | [Tree Queries](https://codeforces.com/contest/1328/problem/E) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1328/E%20-%20Tree%20Queries/solution.cpp) |
+| 1472G | [Moving to the Capital](https://codeforces.com/contest/1472/problem/G) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1472/G%20-%20Moving%20to%20the%20Capital/solution.cpp) |
 | 2114E | [Kirei Attacks the Estate](https://codeforces.com/contest/2114/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2114/E%20-%20Kirei%20Attacks%20the%20Estate/solution.cpp) |
+
+### divide and conquer
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2149G | [Buratsuta 3](https://codeforces.com/contest/2149/problem/G) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/G%20-%20Buratsuta%203/solution.cpp) |
 
 ### dp
 
@@ -190,6 +208,7 @@
 | 289B | [Polo the Penguin and Matrix](https://codeforces.com/contest/289/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/289/B%20-%20Polo%20the%20Penguin%20and%20Matrix/solution.cpp) |
 | 313B | [Ilya and Queries](https://codeforces.com/contest/313/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/313/B%20-%20Ilya%20and%20Queries/solution.cpp) |
 | 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.cpp) |
+| 1472G | [Moving to the Capital](https://codeforces.com/contest/1472/problem/G) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1472/G%20-%20Moving%20to%20the%20Capital/solution.cpp) |
 | 1475B | [New Year's Number](https://codeforces.com/contest/1475/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1475/B%20-%20New%20Year's%20Number/solution.cpp) |
 | 1872E | [Data Structures Fan](https://codeforces.com/contest/1872/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1872/E%20-%20Data%20Structures%20Fan/solution.cpp) |
 | 2065C1 | [Skibidus and Fanum Tax (easy version)](https://codeforces.com/contest/2065/problem/C1) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2065/C1%20-%20Skibidus%20and%20Fanum%20Tax%20(easy%20version)/solution.cpp) |
@@ -202,6 +221,7 @@
 | 2126B | [No Casino in the Mountains](https://codeforces.com/contest/2126/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2126/B%20-%20No%20Casino%20in%20the%20Mountains/solution.cpp) |
 | 2128D | [Sum of LDS](https://codeforces.com/contest/2128/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2128/D%20-%20Sum%20of%20LDS/solution.cpp) |
 | 2132D | [From 1 to Infinity](https://codeforces.com/contest/2132/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2132/D%20-%20From%201%20to%20Infinity/solution.cpp) |
+| 2133F | [Flint and Steel](https://codeforces.com/contest/2133/problem/F) | 3000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2133/F%20-%20Flint%20and%20Steel/solution.cpp) |
 | 2144C | [Non-Descending Arrays](https://codeforces.com/contest/2144/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2144/C%20-%20Non-Descending%20Arrays/solution.cpp) |
 | 2144D | [Price Tags](https://codeforces.com/contest/2144/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2144/D%20-%20Price%20Tags/solution.cpp) |
 
@@ -225,6 +245,7 @@
 |---|---------|------------|----------|
 | 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2104/C%20-%20Card%20Game/solution.cpp) |
 | 2107B | [Apples in Boxes](https://codeforces.com/contest/2107/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2107/B%20-%20Apples%20in%20Boxes/solution.cpp) |
+| 2152B | [Catching the Krug](https://codeforces.com/contest/2152/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2152/B%20-%20Catching%20the%20Krug/solution.cpp) |
 
 ### geometry
 
@@ -245,13 +266,16 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 427C | [Checkposts](https://codeforces.com/contest/427/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/427/C%20-%20Checkposts/solution.cpp) |
 | 520B | [Two Buttons](https://codeforces.com/contest/520/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/520/B%20-%20Two%20Buttons/solution.cpp) |
 | 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 598D | [Igor In the Museum](https://codeforces.com/contest/598/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/598/D%20-%20Igor%20In%20the%20Museum/solution.cpp) |
 | 744A | [Hongcow Builds A Nation](https://codeforces.com/contest/744/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/744/A%20-%20Hongcow%20Builds%20A%20Nation/solution.cpp) |
 | 1139C | [Edgy Trees](https://codeforces.com/contest/1139/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1139/C%20-%20Edgy%20Trees/solution.cpp) |
 | 1328E | [Tree Queries](https://codeforces.com/contest/1328/problem/E) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1328/E%20-%20Tree%20Queries/solution.cpp) |
+| 1472G | [Moving to the Capital](https://codeforces.com/contest/1472/problem/G) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1472/G%20-%20Moving%20to%20the%20Capital/solution.cpp) |
 | 2108C | [Neo's Escape](https://codeforces.com/contest/2108/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2108/C%20-%20Neo's%20Escape/solution.cpp) |
+| 2133F | [Flint and Steel](https://codeforces.com/contest/2133/problem/F) | 3000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2133/F%20-%20Flint%20and%20Steel/solution.cpp) |
 
 ### greedy
 
@@ -295,7 +319,10 @@
 | 2139B | [Cake Collection](https://codeforces.com/contest/2139/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2139/B%20-%20Cake%20Collection/solution.cpp) |
 | 2146A | [Equal Occurrences](https://codeforces.com/contest/2146/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2146/A%20-%20Equal%20Occurrences/solution.cpp) |
 | 2146B | [Merging the Sets](https://codeforces.com/contest/2146/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2146/B%20-%20Merging%20the%20Sets/solution.cpp) |
+| 2149B | [Unconventional Pairs](https://codeforces.com/contest/2149/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/B%20-%20Unconventional%20Pairs/solution.cpp) |
 | 2149C | [MEX rose](https://codeforces.com/contest/2149/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/C%20-%20MEX%20rose/solution.cpp) |
+| 2152A | [Increase or Smash](https://codeforces.com/contest/2152/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2152/A%20-%20Increase%20or%20Smash/solution.cpp) |
+| 2152C | [Triple Removal](https://codeforces.com/contest/2152/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2152/C%20-%20Triple%20Removal/solution.cpp) |
 
 ### hashing
 
@@ -345,6 +372,7 @@
 | 2132D | [From 1 to Infinity](https://codeforces.com/contest/2132/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2132/D%20-%20From%201%20to%20Infinity/solution.cpp) |
 | 2146A | [Equal Occurrences](https://codeforces.com/contest/2146/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2146/A%20-%20Equal%20Occurrences/solution.cpp) |
 | 2146B | [Merging the Sets](https://codeforces.com/contest/2146/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2146/B%20-%20Merging%20the%20Sets/solution.cpp) |
+| 2152A | [Increase or Smash](https://codeforces.com/contest/2152/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2152/A%20-%20Increase%20or%20Smash/solution.cpp) |
 
 ### interactive
 
@@ -369,6 +397,7 @@
 | 1475B | [New Year's Number](https://codeforces.com/contest/1475/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1475/B%20-%20New%20Year's%20Number/solution.cpp) |
 | 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
 | 1823C | [Strongly Composite](https://codeforces.com/contest/1823/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1823/C%20-%20Strongly%20Composite/solution.cpp) |
+| 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.cpp) |
 | 1931D | [Divisible Pairs](https://codeforces.com/contest/1931/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1931/D%20-%20Divisible%20Pairs/solution.cpp) |
 | 2032C | [Trinity](https://codeforces.com/contest/2032/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2032/C%20-%20Trinity/solution.cpp) |
 | 2041E | [Beautiful Array](https://codeforces.com/contest/2041/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2041/E%20-%20Beautiful%20Array/solution.cpp) |
@@ -403,6 +432,8 @@
 | 2144C | [Non-Descending Arrays](https://codeforces.com/contest/2144/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2144/C%20-%20Non-Descending%20Arrays/solution.cpp) |
 | 2144D | [Price Tags](https://codeforces.com/contest/2144/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2144/D%20-%20Price%20Tags/solution.cpp) |
 | 2149A | [Be Positive](https://codeforces.com/contest/2149/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/A%20-%20Be%20Positive/solution.cpp) |
+| 2149F | [Nezuko in the Clearing](https://codeforces.com/contest/2149/problem/F) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/F%20-%20Nezuko%20in%20the%20Clearing/solution.cpp) |
+| 2152C | [Triple Removal](https://codeforces.com/contest/2152/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2152/C%20-%20Triple%20Removal/solution.cpp) |
 
 ### number theory
 
@@ -410,6 +441,7 @@
 |---|---------|------------|----------|
 | 271B | [Prime Matrix](https://codeforces.com/contest/271/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/271/B%20-%20Prime%20Matrix/solution.cpp) |
 | 1823C | [Strongly Composite](https://codeforces.com/contest/1823/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1823/C%20-%20Strongly%20Composite/solution.cpp) |
+| 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.cpp) |
 | 1931D | [Divisible Pairs](https://codeforces.com/contest/1931/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1931/D%20-%20Divisible%20Pairs/solution.cpp) |
 | 2044E | [Insane Problem](https://codeforces.com/contest/2044/problem/E) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2044/E%20-%20Insane%20Problem/solution.cpp) |
 | 2071A | [The Play Never Ends](https://codeforces.com/contest/2071/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2071/A%20-%20The%20Play%20Never%20Ends/solution.cpp) |
@@ -420,6 +452,12 @@
 | 2126E | [G-C-D, Unlucky!](https://codeforces.com/contest/2126/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2126/E%20-%20G-C-D%2C%20Unlucky!/solution.cpp) |
 | 2144A | [Cut the Array](https://codeforces.com/contest/2144/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2144/A%20-%20Cut%20the%20Array/solution.cpp) |
 
+### probabilities
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2149G | [Buratsuta 3](https://codeforces.com/contest/2149/problem/G) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/G%20-%20Buratsuta%203/solution.cpp) |
+
 ### shortest paths
 
 | # | Problem | Difficulty | Solution |
@@ -427,6 +465,7 @@
 | 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
 | 520B | [Two Buttons](https://codeforces.com/contest/520/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/520/B%20-%20Two%20Buttons/solution.cpp) |
 | 598D | [Igor In the Museum](https://codeforces.com/contest/598/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/598/D%20-%20Igor%20In%20the%20Museum/solution.cpp) |
+| 1472G | [Moving to the Capital](https://codeforces.com/contest/1472/problem/G) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1472/G%20-%20Moving%20to%20the%20Capital/solution.cpp) |
 
 ### sortings
 
@@ -441,6 +480,7 @@
 | 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
 | 2091B | [Team Training](https://codeforces.com/contest/2091/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2091/B%20-%20Team%20Training/solution.cpp) |
 | 2110A | [Fashionable Array](https://codeforces.com/contest/2110/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2110/A%20-%20Fashionable%20Array/solution.cpp) |
+| 2149B | [Unconventional Pairs](https://codeforces.com/contest/2149/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/B%20-%20Unconventional%20Pairs/solution.cpp) |
 
 ### string suffix structures
 
@@ -463,6 +503,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 289B | [Polo the Penguin and Matrix](https://codeforces.com/contest/289/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/289/B%20-%20Polo%20the%20Penguin%20and%20Matrix/solution.cpp) |
+| 2149F | [Nezuko in the Clearing](https://codeforces.com/contest/2149/problem/F) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/F%20-%20Nezuko%20in%20the%20Clearing/solution.cpp) |
 
 ### trees
 
@@ -477,11 +518,13 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 427C | [Checkposts](https://codeforces.com/contest/427/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/427/C%20-%20Checkposts/solution.cpp) |
 | 1732C1 | [Sheikh (Easy version)](https://codeforces.com/contest/1732/problem/C1) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1732/C1%20-%20Sheikh%20(Easy%20version)/solution.cpp) |
 | 1732C2 | [Sheikh (Hard Version)](https://codeforces.com/contest/1732/problem/C2) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1732/C2%20-%20Sheikh%20(Hard%20Version)/solution.cpp) |
 | 1904C | [Array Game](https://codeforces.com/contest/1904/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1904/C%20-%20Array%20Game/solution.cpp) |
 | 2032C | [Trinity](https://codeforces.com/contest/2032/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2032/C%20-%20Trinity/solution.cpp) |
 | 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
+| 2149E | [Hidden Knowledge of the Ancients](https://codeforces.com/contest/2149/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/E%20-%20Hidden%20Knowledge%20of%20the%20Ancients/solution.cpp) |
 
 ---
 
