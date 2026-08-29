@@ -6,35 +6,85 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 3 |
+| 12 | 8 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [binary search](#binary-search) (1)
+- [Uncategorized](#uncategorized) (1)
+- [brute force](#brute-force) (3)
 - [constructive algorithms](#constructive-algorithms) (1)
-- [data structures](#data-structures) (1)
+- [geometry](#geometry) (2)
+- [greedy](#greedy) (4)
+- [implementation](#implementation) (4)
+- [math](#math) (7)
+- [strings](#strings) (1)
 
 ---
 
-### binary search
+### Uncategorized
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 484E | [Sign on Fence](https://codeforces.com/contest/484/problem/E) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/484/E%20-%20Sign%20on%20Fence/solution.cpp) |
+| 819A | [Mister B and Boring Game](https://codeforces.com/contest/819/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/819/A%20-%20Mister%20B%20and%20Boring%20Game/solution.cpp) |
+
+### brute force
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2036C | [Anya and 1100](https://codeforces.com/contest/2036/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2036/C%20-%20Anya%20and%201100/solution.cpp) |
+| 2044A | [Easy Problem](https://codeforces.com/contest/2044/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2044/A%20-%20Easy%20Problem/solution.cpp) |
+| 2070A | [FizzBuzz Remixed](https://codeforces.com/contest/2070/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2070/A%20-%20FizzBuzz%20Remixed/solution.cpp) |
 
 ### constructive algorithms
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 484E | [Sign on Fence](https://codeforces.com/contest/484/problem/E) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/484/E%20-%20Sign%20on%20Fence/solution.cpp) |
+| 2041E | [Beautiful Array](https://codeforces.com/contest/2041/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2041/E%20-%20Beautiful%20Array/solution.cpp) |
 
-### data structures
+### geometry
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 484E | [Sign on Fence](https://codeforces.com/contest/484/problem/E) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/484/E%20-%20Sign%20on%20Fence/solution.cpp) |
+| 2074A | [Draw a Square](https://codeforces.com/contest/2074/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2074/A%20-%20Draw%20a%20Square/solution.cpp) |
+| 2074B | [The Third Side](https://codeforces.com/contest/2074/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2074/B%20-%20The%20Third%20Side/solution.cpp) |
+
+### greedy
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2044C | [Hard Problem](https://codeforces.com/contest/2044/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2044/C%20-%20Hard%20Problem/solution.cpp) |
+| 2072A | [New World, New Me, New Array](https://codeforces.com/contest/2072/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2072/A%20-%20New%20World%2C%20New%20Me%2C%20New%20Array/solution.cpp) |
+| 2074B | [The Third Side](https://codeforces.com/contest/2074/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2074/B%20-%20The%20Third%20Side/solution.cpp) |
+| 2091A | [Olympiad Date](https://codeforces.com/contest/2091/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2091/A%20-%20Olympiad%20Date/solution.cpp) |
+
+### implementation
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2036C | [Anya and 1100](https://codeforces.com/contest/2036/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2036/C%20-%20Anya%20and%201100/solution.cpp) |
+| 2037A | [Twice](https://codeforces.com/contest/2037/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2037/A%20-%20Twice/solution.cpp) |
+| 2072A | [New World, New Me, New Array](https://codeforces.com/contest/2072/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2072/A%20-%20New%20World%2C%20New%20Me%2C%20New%20Array/solution.cpp) |
+| 2074A | [Draw a Square](https://codeforces.com/contest/2074/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2074/A%20-%20Draw%20a%20Square/solution.cpp) |
+
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2041E | [Beautiful Array](https://codeforces.com/contest/2041/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2041/E%20-%20Beautiful%20Array/solution.cpp) |
+| 2044A | [Easy Problem](https://codeforces.com/contest/2044/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2044/A%20-%20Easy%20Problem/solution.cpp) |
+| 2044C | [Hard Problem](https://codeforces.com/contest/2044/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2044/C%20-%20Hard%20Problem/solution.cpp) |
+| 2070A | [FizzBuzz Remixed](https://codeforces.com/contest/2070/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2070/A%20-%20FizzBuzz%20Remixed/solution.cpp) |
+| 2072A | [New World, New Me, New Array](https://codeforces.com/contest/2072/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2072/A%20-%20New%20World%2C%20New%20Me%2C%20New%20Array/solution.cpp) |
+| 2074B | [The Third Side](https://codeforces.com/contest/2074/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2074/B%20-%20The%20Third%20Side/solution.cpp) |
+| 2086A | [Cloudberry Jam](https://codeforces.com/contest/2086/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2086/A%20-%20Cloudberry%20Jam/solution.cpp) |
+
+### strings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2091A | [Olympiad Date](https://codeforces.com/contest/2091/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2091/A%20-%20Olympiad%20Date/solution.cpp) |
 
 ---
 
