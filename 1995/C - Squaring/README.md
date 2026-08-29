@@ -1,0 +1,24 @@
+<h2><a href="https://codeforces.com/contest/1995/problem/C" target="_blank" rel="noopener noreferrer">1995C — Squaring</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1800 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1995C](https://codeforces.com/contest/1995/problem/C) |
+
+## Topics
+`brute force` `constructive algorithms` `greedy` `implementation` `math` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">C. Squaring</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p><span class="tex-font-style-tt">ikrpprpp</span> found an array $$$a$$$ consisting of integers. He likes justice, so he wants to make $$$a$$$ fair — that is, make it non-decreasing. To do that, he can perform an <span class="tex-font-style-it">act of justice</span> on an index $$$1 \le i \le n$$$ of the array, which will replace $$$a_i$$$ with $$$a_i ^ 2$$$ (the element at position $$$i$$$ with its square). For example, if $$$a = [2,4,3,3,5,3]$$$ and <span class="tex-font-style-tt">ikrpprpp</span> chooses to perform an act of justice on $$$i = 4$$$, $$$a$$$ becomes $$$[2,4,3,9,5,3]$$$.</p><p>What is the minimum number of acts of justice needed to make the array non-decreasing?</p></div><div class="input-specification"><div class="section-title">Input</div><p>First line contains an integer $$$t$$$ ($$$1 \le t \le 1000$$$) — the number of test cases. It is followed by the description of test cases.</p><p>For each test case, the first line contains an integer $$$n$$$ — size of the array $$$a$$$. The second line contains $$$n$$$ ($$$1 \le n \le 2 \cdot 10 ^5$$$) integers $$$a_1, a_2,\ldots, a_n$$$ ($$$1 \le a_i \le 10 ^ 6$$$). </p><p>The sum of $$$n$$$ over all test cases does not exceed $$$2 \cdot {10}^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each testcase, print an integer — minimum number of acts of justice required to make the array $$$a$$$ non-decreasing. If it is impossible to do that, print $$$-1$$$.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0022046092642175052" id="id008762266487549994" class="input-output-copier">Copy</div></div><pre id="id0022046092642175052"><div class="test-example-line test-example-line-even test-example-line-0">7</div><div class="test-example-line test-example-line-odd test-example-line-1">3</div><div class="test-example-line test-example-line-odd test-example-line-1">1 2 3</div><div class="test-example-line test-example-line-even test-example-line-2">2</div><div class="test-example-line test-example-line-even test-example-line-2">3 2</div><div class="test-example-line test-example-line-odd test-example-line-3">3</div><div class="test-example-line test-example-line-odd test-example-line-3">3 1 5</div><div class="test-example-line test-example-line-even test-example-line-4">4</div><div class="test-example-line test-example-line-even test-example-line-4">1 1 2 3</div><div class="test-example-line test-example-line-odd test-example-line-5">3</div><div class="test-example-line test-example-line-odd test-example-line-5">4 3 2</div><div class="test-example-line test-example-line-even test-example-line-6">9</div><div class="test-example-line test-example-line-even test-example-line-6">16 2 4 2 256 2 4 2 8</div><div class="test-example-line test-example-line-odd test-example-line-7">11</div><div class="test-example-line test-example-line-odd test-example-line-7">10010 10009 10008 10007 10006 10005 10004 10003 10002 10001 10000</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id003690797196665778" id="id003683876960920489" class="input-output-copier">Copy</div></div><pre id="id003690797196665778">0
+1
+-1
+0
+3
+15
+55
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, there's no need to perform acts of justice. The array is fair on its own!</p><p>In the third test case, it can be proven that the array cannot become non-decreasing.</p><p>In the fifth test case, <span class="tex-font-style-tt">ikrpprppp</span> can perform an act of justice on index 3, then an act of justice on index 2, and finally yet another act of justice on index 3. After that, $$$a$$$ will become $$$[4, 9, 16]$$$.</p></div>
