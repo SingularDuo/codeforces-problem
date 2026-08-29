@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/986/problem/C" target="_blank" rel="noopener noreferrer">986C — AND Graph</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 2500 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 986C](https://codeforces.com/contest/986/problem/C) |
+
+## Topics
+`bitmasks` `dfs and similar` `dsu` `graphs`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">C. AND Graph</div><div class="time-limit"><div class="property-title">time limit per test</div>4 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given a set of size $$$m$$$ with integer elements between $$$0$$$ and $$$2^{n}-1$$$ inclusive. Let's build an undirected graph on these integers in the following way: connect two integers $$$x$$$ and $$$y$$$ with an edge if and only if $$$x \& y = 0$$$. Here $$$\&$$$ is the <a href="https://en.wikipedia.org/wiki/Bitwise_operation#AND">bitwise AND operation</a>. Count the number of connected components in that graph.</p></div><div class="input-specification"><div class="section-title">Input</div><p>In the first line of input there are two integers $$$n$$$ and $$$m$$$ ($$$0 \le n \le 22$$$, $$$1 \le m \le 2^{n}$$$).</p><p>In the second line there are $$$m$$$ integers $$$a_1, a_2, \ldots, a_m$$$ ($$$0 \le a_{i}  \lt  2^{n}$$$) — the elements of the set. All $$$a_{i}$$$ are distinct.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print the number of connected components.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0019407192708816268" id="id0038466901363899586" class="input-output-copier">Copy</div></div><pre id="id0019407192708816268">2 3<br>1 2 3<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00010802140338234234" id="id009452496545592415" class="input-output-copier">Copy</div></div><pre id="id00010802140338234234">2<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009822135064364457" id="id0022620056827225155" class="input-output-copier">Copy</div></div><pre id="id009822135064364457">5 5<br>5 19 10 20 12<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00790450502815066" id="id006795023553820645" class="input-output-copier">Copy</div></div><pre id="id00790450502815066">2<br></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>Graph from first sample:</p><p><img class="tex-graphics" src="https://espresso.codeforces.com/2ae9959ec95b178e60e27e28f5d62c1099bb9ef1.png" style="max-width: 100.0%;max-height: 100.0%;"></p><p>Graph from second sample:</p><p><img class="tex-graphics" src="https://espresso.codeforces.com/9f9eee8f2409bbd78cce726875915c405af8a07e.png" style="max-width: 100.0%;max-height: 100.0%;"></p></div>
