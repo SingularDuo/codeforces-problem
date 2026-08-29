@@ -6,15 +6,17 @@
 
 | Total Problems | Topics |
 |---|---|
-| 12 | 8 |
+| 13 | 10 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [Uncategorized](#uncategorized) (1)
+- [binary search](#binary-search) (1)
 - [brute force](#brute-force) (3)
-- [constructive algorithms](#constructive-algorithms) (1)
+- [constructive algorithms](#constructive-algorithms) (2)
+- [data structures](#data-structures) (1)
 - [geometry](#geometry) (2)
 - [greedy](#greedy) (4)
 - [implementation](#implementation) (4)
@@ -29,6 +31,12 @@
 |---|---------|------------|----------|
 | 819A | [Mister B and Boring Game](https://codeforces.com/contest/819/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/819/A%20-%20Mister%20B%20and%20Boring%20Game/solution.cpp) |
 
+### binary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 484E | [Sign on Fence](https://codeforces.com/contest/484/problem/E) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/484/E%20-%20Sign%20on%20Fence/solution.cpp) |
+
 ### brute force
 
 | # | Problem | Difficulty | Solution |
@@ -41,7 +49,14 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 484E | [Sign on Fence](https://codeforces.com/contest/484/problem/E) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/484/E%20-%20Sign%20on%20Fence/solution.cpp) |
 | 2041E | [Beautiful Array](https://codeforces.com/contest/2041/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2041/E%20-%20Beautiful%20Array/solution.cpp) |
+
+### data structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 484E | [Sign on Fence](https://codeforces.com/contest/484/problem/E) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/484/E%20-%20Sign%20on%20Fence/solution.cpp) |
 
 ### geometry
 
