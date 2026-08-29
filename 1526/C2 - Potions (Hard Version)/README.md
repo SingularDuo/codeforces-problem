@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/1526/problem/C2" target="_blank" rel="noopener noreferrer">1526C2 — Potions (Hard Version)</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1600 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1526C2](https://codeforces.com/contest/1526/problem/C2) |
+
+## Topics
+`data structures` `greedy`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">C2. Potions (Hard Version)</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p><span class="tex-font-style-bf">This is the hard version of the problem. The only difference is that in this version $$$n \leq 200000$$$. You can make hacks only if both versions of the problem are solved.</span></p><p>There are $$$n$$$ potions in a line, with potion $$$1$$$ on the far left and potion $$$n$$$ on the far right. Each potion increases your health by $$$a_i$$$ when drunk. $$$a_i$$$ can be negative, meaning that the potion decreases your health.</p><p>You start with $$$0$$$ health, and you will walk from left to right, from the first potion to the last one. At each potion, you may choose to drink it or ignore it. <span class="tex-font-style-bf">You must ensure that your health is always non-negative</span>.</p><p>What is the largest number of potions you can drink?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$n$$$ ($$$1 \leq n \leq 200000$$$) — the number of potions. </p><p>The next line contains $$$n$$$ integers $$$a_1$$$, $$$a_2$$$, ... ,$$$a_n$$$ ($$$-10^9 \leq a_i \leq 10^9$$$) which represent the change in health after drinking that potion.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Output a single integer, the maximum number of potions you can drink without your health becoming negative.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00021603550317448317" id="id009356702864987265" class="input-output-copier">Copy</div></div><pre id="id00021603550317448317"><div class="test-example-line test-example-line-even test-example-line-0">6</div><div class="test-example-line test-example-line-even test-example-line-0">4 -4 1 -3 1 -3</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id005740467309144556" id="id0038817742238795305" class="input-output-copier">Copy</div></div><pre id="id005740467309144556">5</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>For the sample, you can drink $$$5$$$ potions by taking potions $$$1$$$, $$$3$$$, $$$4$$$, $$$5$$$ and $$$6$$$. It is not possible to drink all $$$6$$$ potions because your health will go negative at some point</p></div>
