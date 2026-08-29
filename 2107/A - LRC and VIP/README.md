@@ -1,0 +1,22 @@
+<h2><a href="https://codeforces.com/contest/2107/problem/A" target="_blank" rel="noopener noreferrer">2107A — LRC and VIP</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2107A](https://codeforces.com/contest/2107/problem/A) |
+
+## Topics
+`greedy` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. LRC and VIP</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p> </p><p>You have an array $$$a$$$ of size $$$n$$$ — $$$a_1, a_2, \ldots a_n$$$. </p><p>You need to divide the $$$n$$$ elements into $$$2$$$ sequences $$$B$$$ and $$$C$$$, satisfying the following conditions:</p><ul> <li> Each element belongs to exactly one sequence. </li><li> Both sequences $$$B$$$ and $$$C$$$ contain at least one element. </li><li> $$$\gcd$$$ $$$(B_1, B_2, \ldots, B_{|B|}) \ne \gcd(C_1, C_2, \ldots, C_{|C|})$$$ $$$^{\text{∗}}$$$ </li></ul><div class="statement-footnote"><p>$$$^{\text{∗}}$$$$$$\gcd(x, y)$$$ denotes the <a href="https://en.wikipedia.org/wiki/Greatest_common_divisor">greatest common divisor (GCD)</a> of integers $$$x$$$ and $$$y$$$. </p></div></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 500$$$). The description of the test cases follows. </p><p>The first line of each test case contains an integer $$$n$$$ ($$$2 \le n \le 100$$$).</p><p>The second line of each test case contains $$$n$$$ integers $$$a_1,a_2,\ldots,a_n$$$ ($$$1 \le a_i \le 10^4$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, first output $$$\texttt{Yes}$$$ if a solution exists or $$$\texttt{No}$$$ if no solution exists. You may print each character in either case, for example $$$\texttt{YES}$$$ and $$$\texttt{yEs}$$$ will also be accepted.</p><p>Only when there is a solution, output $$$n$$$ integers on the second line. The $$$i$$$-th number should be either $$$1$$$ or $$$2$$$. $$$1$$$ represents that the element belongs to sequence $$$B$$$ and $$$2$$$ represents that the element belongs to sequence $$$C$$$. </p><p>You should guarantee that $$$1$$$ and $$$2$$$ both appear at least once.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00496153028133269" id="id005107998467293394" class="input-output-copier">Copy</div></div><pre id="id00496153028133269"><div class="test-example-line test-example-line-even test-example-line-0">3</div><div class="test-example-line test-example-line-odd test-example-line-1">4</div><div class="test-example-line test-example-line-odd test-example-line-1">1 20 51 9</div><div class="test-example-line test-example-line-even test-example-line-2">4</div><div class="test-example-line test-example-line-even test-example-line-2">5 5 5 5</div><div class="test-example-line test-example-line-odd test-example-line-3">3</div><div class="test-example-line test-example-line-odd test-example-line-3">1 2 2</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00714563455665444" id="id00009409257698925422" class="input-output-copier">Copy</div></div><pre id="id00714563455665444">Yes
+2 2 1 1
+No
+Yes
+1 2 2
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, $$$B = [51, 9]$$$ and $$$C = [1, 20]$$$. You can verify $$$\gcd(B_1, B_2) = 3 \ne 1 = \gcd(C_1, C_2)$$$.</p><p>In the second test case, it is impossible to find a solution. For example, suppose you distributed the first $$$3$$$ elements to array $$$B$$$ and then the last element to array $$$C$$$. You have $$$B = [5, 5, 5]$$$ and $$$C = [5]$$$, but $$$\gcd(B_1, B_2, B_3) = 5 = \gcd(C_1)$$$. Hence it is invalid.</p></div>
