@@ -1,0 +1,22 @@
+<h2><a href="https://codeforces.com/contest/2106/problem/A" target="_blank" rel="noopener noreferrer">2106A — Dr. TC</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2106A](https://codeforces.com/contest/2106/problem/A) |
+
+## Topics
+`brute force` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Dr. TC</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>In order to test his patients' intelligence, Dr. TC created the following test.</p><p>First, he creates a binary string$$$^{\text{∗}}$$$ $$$s$$$ having $$$n$$$ characters. Then, he creates $$$n$$$ binary strings $$$a_1, a_2, \ldots, a_n$$$. It is known that $$$a_i$$$ is created by first copying $$$s$$$, then flipping the $$$i$$$'th character ($$$\texttt{1}$$$ becomes $$$\texttt{0}$$$ and vice versa). After creating all $$$n$$$ strings, he arranges them into a grid where the $$$i$$$'th row is $$$a_i$$$. </p><p>For example, </p><ul> <li> If $$$s = \texttt{101}$$$, $$$a = [\texttt{001}, \texttt{111}, \texttt{100}]$$$. </li><li> If $$$s = \texttt{0000}$$$, $$$a = [\texttt{1000}, \texttt{0100}, \texttt{0010}, \texttt{0001}]$$$. </li></ul><p>The patient needs to count the number of $$$1$$$s written on the board in less than a second. Can you pass the test?</p><div class="statement-footnote"><p>$$$^{\text{∗}}$$$A binary string is a string that only consists of characters $$$\texttt{1}$$$ and $$$\texttt{0}$$$.</p></div></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of the input consists of a single integer $$$t$$$ ($$$1 \le t \le 1000$$$) — the number of test cases.</p><p>The first line of each test case contains a single integer $$$n$$$ ($$$1 \le n \le 10$$$) — the length of the binary string $$$s$$$.</p><p>The second line of each test case contains a single binary string $$$s$$$ of size $$$n$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output a single integer, the number of $$$\texttt{1}$$$s on the board.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id001243995714371724" id="id003757505442700477" class="input-output-copier">Copy</div></div><pre id="id001243995714371724"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">3</div><div class="test-example-line test-example-line-odd test-example-line-1">101</div><div class="test-example-line test-example-line-even test-example-line-2">1</div><div class="test-example-line test-example-line-even test-example-line-2">1</div><div class="test-example-line test-example-line-odd test-example-line-3">5</div><div class="test-example-line test-example-line-odd test-example-line-3">00000</div><div class="test-example-line test-example-line-even test-example-line-4">2</div><div class="test-example-line test-example-line-even test-example-line-4">11</div><div class="test-example-line test-example-line-odd test-example-line-5">3</div><div class="test-example-line test-example-line-odd test-example-line-5">010</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00007264915111009018" id="id005931278508040714" class="input-output-copier">Copy</div></div><pre id="id00007264915111009018">5
+0
+5
+2
+4
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>The first example is explained in the statement.</p><p>For the second example, the only string written on the board will be the string $$$\texttt{0}$$$; therefore, the answer is $$$0$$$.</p><p>In the third example, the following strings will be written on the board: $$$[\texttt{10000}, \texttt{01000}, \texttt{00100}, \texttt{00010}, \texttt{00001}]$$$; so there are five $$$\texttt{1}$$$s written on the board.</p></div>
