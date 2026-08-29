@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/888/problem/G" target="_blank" rel="noopener noreferrer">888G — Xor-MST</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 2300 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 888G](https://codeforces.com/contest/888/problem/G) |
+
+## Topics
+`bitmasks` `constructive algorithms` `data structures`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">G. Xor-MST</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given a complete undirected graph with <span class="tex-span"><i>n</i></span> vertices. A number <span class="tex-span"><i>a</i><sub class="lower-index"><i>i</i></sub></span> is assigned to each vertex, and the weight of an edge between vertices <span class="tex-span"><i>i</i></span> and <span class="tex-span"><i>j</i></span> is equal to <span class="tex-span"><i>a</i><sub class="lower-index"><i>i</i></sub> <i>xor</i> <i>a</i><sub class="lower-index"><i>j</i></sub></span>.</p><p>Calculate the weight of the minimum spanning tree in this graph.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains <span class="tex-span"><i>n</i></span> (<span class="tex-span">1 ≤ <i>n</i> ≤ 200000</span>) — the number of vertices in the graph.</p><p>The second line contains <span class="tex-span"><i>n</i></span> integers <span class="tex-span"><i>a</i><sub class="lower-index">1</sub></span>, <span class="tex-span"><i>a</i><sub class="lower-index">2</sub></span>, ..., <span class="tex-span"><i>a</i><sub class="lower-index"><i>n</i></sub></span> (<span class="tex-span">0 ≤ <i>a</i><sub class="lower-index"><i>i</i></sub> < 2<sup class="upper-index">30</sup></span>) — the numbers assigned to the vertices.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print one number — the weight of the minimum spanning tree in the graph.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009825454197481495" id="id008601760853764452" class="input-output-copier">Copy</div></div><pre id="id009825454197481495">5<br>1 2 3 4 5<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id007302219508454032" id="id008632298711526111" class="input-output-copier">Copy</div></div><pre id="id007302219508454032">8<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id006923021301191729" id="id008319374511549801" class="input-output-copier">Copy</div></div><pre id="id006923021301191729">4<br>1 2 3 4<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id008277446835126746" id="id006541888707257851" class="input-output-copier">Copy</div></div><pre id="id008277446835126746">8<br></pre></div></div></div>
