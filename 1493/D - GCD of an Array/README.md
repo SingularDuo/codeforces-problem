@@ -1,0 +1,25 @@
+<h2><a href="https://codeforces.com/contest/1493/problem/D" target="_blank" rel="noopener noreferrer">1493D — GCD of an Array</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 2100 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1493D](https://codeforces.com/contest/1493/problem/D) |
+
+## Topics
+`brute force` `data structures` `hashing` `implementation` `math` `number theory` `sortings` `two pointers`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">D. GCD of an Array</div><div class="time-limit"><div class="property-title">time limit per test</div>2.5 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given an array $$$a$$$ of length $$$n$$$. You are asked to process $$$q$$$ queries of the following format: given integers $$$i$$$ and $$$x$$$, multiply $$$a_i$$$ by $$$x$$$.</p><p>After processing each query you need to output the <a href="https://en.wikipedia.org/wiki/Greatest_common_divisor">greatest common divisor (GCD)</a> of all elements of the array $$$a$$$.</p><p>Since the answer can be too large, you are asked to output it modulo $$$10^9+7$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains two integers — $$$n$$$ and $$$q$$$ ($$$1 \le n, q \le 2 \cdot 10^5$$$).</p><p>The second line contains $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ ($$$1 \le a_i \le 2 \cdot 10^5$$$) — the elements of the array $$$a$$$ before the changes.</p><p>The next $$$q$$$ lines contain queries in the following format: each line contains two integers $$$i$$$ and $$$x$$$ ($$$1 \le i \le n$$$, $$$1 \le x \le 2 \cdot 10^5$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print $$$q$$$ lines: after processing each query output the GCD of all elements modulo $$$10^9+7$$$ on a separate line.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008159382908812725" id="id00240119885670394" class="input-output-copier">Copy</div></div><pre id="id008159382908812725">4 3
+1 6 8 12
+1 12
+2 3
+3 3
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009771859260800949" id="id003309458208922953" class="input-output-copier">Copy</div></div><pre id="id009771859260800949">2
+2
+6
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>After the first query the array is $$$[12, 6, 8, 12]$$$, $$$\operatorname{gcd}(12, 6, 8, 12) = 2$$$.</p><p>After the second query — $$$[12, 18, 8, 12]$$$, $$$\operatorname{gcd}(12, 18, 8, 12) = 2$$$.</p><p>After the third query — $$$[12, 18, 24, 12]$$$, $$$\operatorname{gcd}(12, 18, 24, 12) = 6$$$.</p><p>Here the $$$\operatorname{gcd}$$$ function denotes the greatest common divisor.</p></div>
