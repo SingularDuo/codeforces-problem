@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 235 | 33 |
+| 248 | 34 |
 
 ---
 
@@ -15,36 +15,37 @@
 - [*special](#special) (1)
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (8)
-- [binary search](#binary-search) (40)
-- [bitmasks](#bitmasks) (18)
-- [brute force](#brute-force) (39)
+- [binary search](#binary-search) (44)
+- [bitmasks](#bitmasks) (20)
+- [brute force](#brute-force) (41)
 - [combinatorics](#combinatorics) (8)
-- [constructive algorithms](#constructive-algorithms) (25)
-- [data structures](#data-structures) (35)
-- [dfs and similar](#dfs-and-similar) (22)
-- [divide and conquer](#divide-and-conquer) (2)
-- [dp](#dp) (52)
-- [dsu](#dsu) (11)
+- [constructive algorithms](#constructive-algorithms) (27)
+- [data structures](#data-structures) (38)
+- [dfs and similar](#dfs-and-similar) (26)
+- [divide and conquer](#divide-and-conquer) (3)
+- [dp](#dp) (58)
+- [dsu](#dsu) (14)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (5)
 - [geometry](#geometry) (3)
 - [graph matchings](#graph-matchings) (3)
-- [graphs](#graphs) (26)
-- [greedy](#greedy) (72)
-- [hashing](#hashing) (5)
-- [implementation](#implementation) (63)
+- [graphs](#graphs) (28)
+- [greedy](#greedy) (73)
+- [hashing](#hashing) (8)
+- [implementation](#implementation) (65)
 - [interactive](#interactive) (1)
-- [math](#math) (82)
+- [math](#math) (85)
 - [matrices](#matrices) (1)
-- [number theory](#number-theory) (23)
+- [meet-in-the-middle](#meet-in-the-middle) (2)
+- [number theory](#number-theory) (26)
 - [probabilities](#probabilities) (2)
-- [shortest paths](#shortest-paths) (11)
+- [shortest paths](#shortest-paths) (13)
 - [sortings](#sortings) (29)
-- [string suffix structures](#string-suffix-structures) (1)
-- [strings](#strings) (15)
+- [string suffix structures](#string-suffix-structures) (2)
+- [strings](#strings) (17)
 - [ternary search](#ternary-search) (3)
-- [trees](#trees) (10)
-- [two pointers](#two-pointers) (16)
+- [trees](#trees) (14)
+- [two pointers](#two-pointers) (20)
 
 ---
 
@@ -77,6 +78,8 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/126/B%20-%20Password/solution.cpp) |
+| 208E | [Blood Cousins](https://codeforces.com/contest/208/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/208/E%20-%20Blood%20Cousins/solution.cpp) |
 | 271B | [Prime Matrix](https://codeforces.com/contest/271/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/271/B%20-%20Prime%20Matrix/solution.cpp) |
 | 348A | [Mafia](https://codeforces.com/contest/348/problem/A) | 1600 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/348/A%20-%20Mafia/solution.cpp) |
 | 371C | [Hamburgers](https://codeforces.com/contest/371/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/371/C%20-%20Hamburgers/solution.cpp) |
@@ -87,6 +90,7 @@
 | 803D | [Magazine Ad](https://codeforces.com/contest/803/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/803/D%20-%20Magazine%20Ad/solution.cpp) |
 | 847B | [Preparing for Merge Sort](https://codeforces.com/contest/847/problem/B) | 1600 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/847/B%20-%20Preparing%20for%20Merge%20Sort/solution.cpp) |
 | 862E | [Mahmoud and Ehab and the function](https://codeforces.com/contest/862/problem/E) | 2100 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/862/E%20-%20Mahmoud%20and%20Ehab%20and%20the%20function/solution.cpp) |
+| 912E | [Prime Gift](https://codeforces.com/contest/912/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/912/E%20-%20Prime%20Gift/solution.cpp) |
 | 1077D | [Cutting Out](https://codeforces.com/contest/1077/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1077/D%20-%20Cutting%20Out/solution.cpp) |
 | 1181D | [Irrigation](https://codeforces.com/contest/1181/problem/D) | 2200 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1181/D%20-%20Irrigation/solution.cpp) |
 | 1201C | [Maximum Median](https://codeforces.com/contest/1201/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1201/C%20-%20Maximum%20Median/solution.cpp) |
@@ -117,6 +121,7 @@
 | 2149G | [Buratsuta 3](https://codeforces.com/contest/2149/problem/G) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/G%20-%20Buratsuta%203/solution.cpp) |
 | 2171D | [Rae Taylor and Trees (easy version)](https://codeforces.com/contest/2171/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2171/D%20-%20Rae%20Taylor%20and%20Trees%20(easy%20version)/solution.cpp) |
 | 2185E | [The Robotic Rush](https://codeforces.com/contest/2185/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2185/E%20-%20The%20Robotic%20Rush/solution.cpp) |
+| 2232C2 | [Seating Arrangement (Hard Version)](https://codeforces.com/contest/2232/problem/C2) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2232/C2%20-%20Seating%20Arrangement%20(Hard%20Version)/solution.cpp) |
 
 ### bitmasks
 
@@ -125,10 +130,12 @@
 | 467B | [Fedor and New Game](https://codeforces.com/contest/467/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/467/B%20-%20Fedor%20and%20New%20Game/solution.cpp) |
 | 550B | [Preparing Olympiad](https://codeforces.com/contest/550/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/550/B%20-%20Preparing%20Olympiad/solution.cpp) |
 | 579A | [Raising Bacteria](https://codeforces.com/contest/579/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/579/A%20-%20Raising%20Bacteria/solution.cpp) |
+| 1006F | [Xor-Paths](https://codeforces.com/contest/1006/problem/F) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1006/F%20-%20Xor-Paths/solution.cpp) |
 | 1017D | [The Wu](https://codeforces.com/contest/1017/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1017/D%20-%20The%20Wu/solution.cpp) |
 | 1088D | [Ehab and another another xor problem](https://codeforces.com/contest/1088/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1088/D%20-%20Ehab%20and%20another%20another%20xor%20problem/solution.cpp) |
 | 1288D | [Minimax Problem](https://codeforces.com/contest/1288/problem/D) | 2000 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1288/D%20-%20Minimax%20Problem/solution.cpp) |
 | 1327F | [AND Segments](https://codeforces.com/contest/1327/problem/F) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1327/F%20-%20AND%20Segments/solution.cpp) |
+| 1360F | [Spy-string](https://codeforces.com/contest/1360/problem/F) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1360/F%20-%20Spy-string/solution.cpp) |
 | 1582F1 | [Korney Korneevich and XOR (easy version)](https://codeforces.com/contest/1582/problem/F1) | 1800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1582/F1%20-%20Korney%20Korneevich%20and%20XOR%20(easy%20version)/solution.cpp) |
 | 1624G | [MinOr Tree](https://codeforces.com/contest/1624/problem/G) | 1900 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1624/G%20-%20MinOr%20Tree/solution.cpp) |
 | 1732C1 | [Sheikh (Easy version)](https://codeforces.com/contest/1732/problem/C1) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1732/C1%20-%20Sheikh%20(Easy%20version)/solution.cpp) |
@@ -156,7 +163,9 @@
 | 550C | [Divisibility by Eight](https://codeforces.com/contest/550/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/550/C%20-%20Divisibility%20by%20Eight/solution.cpp) |
 | 814C | [An impassioned circulation of affection](https://codeforces.com/contest/814/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/814/C%20-%20An%20impassioned%20circulation%20of%20affection/solution.cpp) |
 | 863B | [Kayaking](https://codeforces.com/contest/863/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/863/B%20-%20Kayaking/solution.cpp) |
+| 1006F | [Xor-Paths](https://codeforces.com/contest/1006/problem/F) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1006/F%20-%20Xor-Paths/solution.cpp) |
 | 1017D | [The Wu](https://codeforces.com/contest/1017/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1017/D%20-%20The%20Wu/solution.cpp) |
+| 1360F | [Spy-string](https://codeforces.com/contest/1360/problem/F) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1360/F%20-%20Spy-string/solution.cpp) |
 | 1475B | [New Year's Number](https://codeforces.com/contest/1475/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1475/B%20-%20New%20Year's%20Number/solution.cpp) |
 | 1493D | [GCD of an Array](https://codeforces.com/contest/1493/problem/D) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1493/D%20-%20GCD%20of%20an%20Array/solution.cpp) |
 | 1732C2 | [Sheikh (Hard Version)](https://codeforces.com/contest/1732/problem/C2) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1732/C2%20-%20Sheikh%20(Hard%20Version)/solution.cpp) |
@@ -203,12 +212,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.cpp) |
+| 66D | [Petya and His Friends](https://codeforces.com/contest/66/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/66/D%20-%20Petya%20and%20His%20Friends/solution.cpp) |
 | 118B | [Present from Lena](https://codeforces.com/contest/118/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/118/B%20-%20Present%20from%20Lena/solution.cpp) |
 | 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
 | 467B | [Fedor and New Game](https://codeforces.com/contest/467/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/467/B%20-%20Fedor%20and%20New%20Game/solution.cpp) |
 | 484E | [Sign on Fence](https://codeforces.com/contest/484/problem/E) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/484/E%20-%20Sign%20on%20Fence/solution.cpp) |
 | 1088D | [Ehab and another another xor problem](https://codeforces.com/contest/1088/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1088/D%20-%20Ehab%20and%20another%20another%20xor%20problem/solution.cpp) |
 | 1244E | [Minimizing Difference](https://codeforces.com/contest/1244/problem/E) | 2000 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1244/E%20-%20Minimizing%20Difference/solution.cpp) |
+| 1360F | [Spy-string](https://codeforces.com/contest/1360/problem/F) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1360/F%20-%20Spy-string/solution.cpp) |
 | 1385E | [Directing Edges](https://codeforces.com/contest/1385/problem/E) | 2000 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1385/E%20-%20Directing%20Edges/solution.cpp) |
 | 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.cpp) |
 | 1890A | [Doremy's Paint 3](https://codeforces.com/contest/1890/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1890/A%20-%20Doremy's%20Paint%203/solution.cpp) |
@@ -233,9 +244,11 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.cpp) |
+| 208E | [Blood Cousins](https://codeforces.com/contest/208/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/208/E%20-%20Blood%20Cousins/solution.cpp) |
 | 438D | [The Child and Sequence](https://codeforces.com/contest/438/problem/D) | 2300 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/438/D%20-%20The%20Child%20and%20Sequence/solution.cpp) |
 | 466C | [Number of Ways](https://codeforces.com/contest/466/problem/C) | 1700 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/466/C%20-%20Number%20of%20Ways/solution.cpp) |
 | 484E | [Sign on Fence](https://codeforces.com/contest/484/problem/E) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/484/E%20-%20Sign%20on%20Fence/solution.cpp) |
+| 722C | [Destroying Array](https://codeforces.com/contest/722/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/722/C%20-%20Destroying%20Array/solution.cpp) |
 | 786B | [Legacy](https://codeforces.com/contest/786/problem/B) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/786/B%20-%20Legacy/solution.cpp) |
 | 847B | [Preparing for Merge Sort](https://codeforces.com/contest/847/problem/B) | 1600 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/847/B%20-%20Preparing%20for%20Merge%20Sort/solution.cpp) |
 | 862E | [Mahmoud and Ehab and the function](https://codeforces.com/contest/862/problem/E) | 2100 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/862/E%20-%20Mahmoud%20and%20Ehab%20and%20the%20function/solution.cpp) |
@@ -245,6 +258,7 @@
 | 1181D | [Irrigation](https://codeforces.com/contest/1181/problem/D) | 2200 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1181/D%20-%20Irrigation/solution.cpp) |
 | 1327F | [AND Segments](https://codeforces.com/contest/1327/problem/F) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1327/F%20-%20AND%20Segments/solution.cpp) |
 | 1349A | [Orac and LCM](https://codeforces.com/contest/1349/problem/A) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1349/A%20-%20Orac%20and%20LCM/solution.cpp) |
+| 1380E | [Merging Towers](https://codeforces.com/contest/1380/problem/E) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1380/E%20-%20Merging%20Towers/solution.cpp) |
 | 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.cpp) |
 | 1485F | [Copy or Prefix Sum](https://codeforces.com/contest/1485/problem/F) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1485/F%20-%20Copy%20or%20Prefix%20Sum/solution.cpp) |
 | 1493D | [GCD of an Array](https://codeforces.com/contest/1493/problem/D) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1493/D%20-%20GCD%20of%20an%20Array/solution.cpp) |
@@ -272,7 +286,10 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/14/D%20-%20Two%20Paths/solution.cpp) |
 | 160D | [Edges in MST](https://codeforces.com/contest/160/problem/D) | 2300 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/160/D%20-%20Edges%20in%20MST/solution.cpp) |
+| 208E | [Blood Cousins](https://codeforces.com/contest/208/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/208/E%20-%20Blood%20Cousins/solution.cpp) |
+| 242C | [King's Path](https://codeforces.com/contest/242/problem/C) | 1800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/242/C%20-%20King's%20Path/solution.cpp) |
 | 427C | [Checkposts](https://codeforces.com/contest/427/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/427/C%20-%20Checkposts/solution.cpp) |
 | 468B | [Two Sets](https://codeforces.com/contest/468/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/468/B%20-%20Two%20Sets/solution.cpp) |
 | 510C | [Fox And Names](https://codeforces.com/contest/510/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/510/C%20-%20Fox%20And%20Names/solution.cpp) |
@@ -281,6 +298,7 @@
 | 598D | [Igor In the Museum](https://codeforces.com/contest/598/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/598/D%20-%20Igor%20In%20the%20Museum/solution.cpp) |
 | 744A | [Hongcow Builds A Nation](https://codeforces.com/contest/744/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/744/A%20-%20Hongcow%20Builds%20A%20Nation/solution.cpp) |
 | 877D | [Olya and Energy Drinks](https://codeforces.com/contest/877/problem/D) | 2100 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/877/D%20-%20Olya%20and%20Energy%20Drinks/solution.cpp) |
+| 912E | [Prime Gift](https://codeforces.com/contest/912/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/912/E%20-%20Prime%20Gift/solution.cpp) |
 | 920E | [Connected Components?](https://codeforces.com/contest/920/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/920/E%20-%20Connected%20Components%3F/solution.cpp) |
 | 1139C | [Edgy Trees](https://codeforces.com/contest/1139/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1139/C%20-%20Edgy%20Trees/solution.cpp) |
 | 1328E | [Tree Queries](https://codeforces.com/contest/1328/problem/E) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1328/E%20-%20Tree%20Queries/solution.cpp) |
@@ -299,6 +317,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 990G | [GCD Counting](https://codeforces.com/contest/990/problem/G) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/990/G%20-%20GCD%20Counting/solution.cpp) |
 | 2050F | [Maximum modulo equality](https://codeforces.com/contest/2050/problem/F) | 1700 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2050/F%20-%20Maximum%20modulo%20equality/solution.cpp) |
 | 2149G | [Buratsuta 3](https://codeforces.com/contest/2149/problem/G) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/G%20-%20Buratsuta%203/solution.cpp) |
 
@@ -308,8 +327,11 @@
 |---|---------|------------|----------|
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.cpp) |
 | 10D | [LCIS](https://codeforces.com/contest/10/problem/D) | 2800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/10/D%20-%20LCIS/solution.cpp) |
+| 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/14/D%20-%20Two%20Paths/solution.cpp) |
 | 118D | [Caesar's Legions](https://codeforces.com/contest/118/problem/D) | 1700 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/118/D%20-%20Caesar's%20Legions/solution.cpp) |
+| 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/126/B%20-%20Password/solution.cpp) |
 | 166E | [Tetrahedron](https://codeforces.com/contest/166/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/166/E%20-%20Tetrahedron/solution.cpp) |
+| 279C | [Ladder](https://codeforces.com/contest/279/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/279/C%20-%20Ladder/solution.cpp) |
 | 289B | [Polo the Penguin and Matrix](https://codeforces.com/contest/289/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/289/B%20-%20Polo%20the%20Penguin%20and%20Matrix/solution.cpp) |
 | 313B | [Ilya and Queries](https://codeforces.com/contest/313/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/313/B%20-%20Ilya%20and%20Queries/solution.cpp) |
 | 327A | [Flipping Game](https://codeforces.com/contest/327/problem/A) | 1200 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/327/A%20-%20Flipping%20Game/solution.cpp) |
@@ -324,9 +346,12 @@
 | 814C | [An impassioned circulation of affection](https://codeforces.com/contest/814/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/814/C%20-%20An%20impassioned%20circulation%20of%20affection/solution.cpp) |
 | 894E | [Ralph and Mushrooms](https://codeforces.com/contest/894/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/894/E%20-%20Ralph%20and%20Mushrooms/solution.cpp) |
 | 977F | [Consecutive Subsequence](https://codeforces.com/contest/977/problem/F) | 1700 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/977/F%20-%20Consecutive%20Subsequence/solution.cpp) |
+| 990G | [GCD Counting](https://codeforces.com/contest/990/problem/G) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/990/G%20-%20GCD%20Counting/solution.cpp) |
+| 1006F | [Xor-Paths](https://codeforces.com/contest/1006/problem/F) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1006/F%20-%20Xor-Paths/solution.cpp) |
 | 1195C | [Basketball Exercise](https://codeforces.com/contest/1195/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1195/C%20-%20Basketball%20Exercise/solution.cpp) |
 | 1288D | [Minimax Problem](https://codeforces.com/contest/1288/problem/D) | 2000 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1288/D%20-%20Minimax%20Problem/solution.cpp) |
 | 1327F | [AND Segments](https://codeforces.com/contest/1327/problem/F) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1327/F%20-%20AND%20Segments/solution.cpp) |
+| 1360F | [Spy-string](https://codeforces.com/contest/1360/problem/F) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1360/F%20-%20Spy-string/solution.cpp) |
 | 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.cpp) |
 | 1472G | [Moving to the Capital](https://codeforces.com/contest/1472/problem/G) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1472/G%20-%20Moving%20to%20the%20Capital/solution.cpp) |
 | 1475B | [New Year's Number](https://codeforces.com/contest/1475/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1475/B%20-%20New%20Year's%20Number/solution.cpp) |
@@ -365,9 +390,12 @@
 |---|---------|------------|----------|
 | 160D | [Edges in MST](https://codeforces.com/contest/160/problem/D) | 2300 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/160/D%20-%20Edges%20in%20MST/solution.cpp) |
 | 468B | [Two Sets](https://codeforces.com/contest/468/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/468/B%20-%20Two%20Sets/solution.cpp) |
+| 722C | [Destroying Array](https://codeforces.com/contest/722/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/722/C%20-%20Destroying%20Array/solution.cpp) |
 | 920E | [Connected Components?](https://codeforces.com/contest/920/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/920/E%20-%20Connected%20Components%3F/solution.cpp) |
 | 959B | [Mahmoud and Ehab and the message](https://codeforces.com/contest/959/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/959/B%20-%20Mahmoud%20and%20Ehab%20and%20the%20message/solution.cpp) |
+| 990G | [GCD Counting](https://codeforces.com/contest/990/problem/G) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/990/G%20-%20GCD%20Counting/solution.cpp) |
 | 1139C | [Edgy Trees](https://codeforces.com/contest/1139/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1139/C%20-%20Edgy%20Trees/solution.cpp) |
+| 1380E | [Merging Towers](https://codeforces.com/contest/1380/problem/E) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1380/E%20-%20Merging%20Towers/solution.cpp) |
 | 1624G | [MinOr Tree](https://codeforces.com/contest/1624/problem/G) | 1900 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1624/G%20-%20MinOr%20Tree/solution.cpp) |
 | 1827B1 | [Range Sorting (Easy Version)](https://codeforces.com/contest/1827/problem/B1) | 2000 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1827/B1%20-%20Range%20Sorting%20(Easy%20Version)/solution.cpp) |
 | 1954E | [Chain Reaction](https://codeforces.com/contest/1954/problem/E) | 2200 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1954/E%20-%20Chain%20Reaction/solution.cpp) |
@@ -411,7 +439,9 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/14/D%20-%20Two%20Paths/solution.cpp) |
 | 160D | [Edges in MST](https://codeforces.com/contest/160/problem/D) | 2300 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/160/D%20-%20Edges%20in%20MST/solution.cpp) |
+| 242C | [King's Path](https://codeforces.com/contest/242/problem/C) | 1800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/242/C%20-%20King's%20Path/solution.cpp) |
 | 427C | [Checkposts](https://codeforces.com/contest/427/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/427/C%20-%20Checkposts/solution.cpp) |
 | 510C | [Fox And Names](https://codeforces.com/contest/510/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/510/C%20-%20Fox%20And%20Names/solution.cpp) |
 | 520B | [Two Buttons](https://codeforces.com/contest/520/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/520/B%20-%20Two%20Buttons/solution.cpp) |
@@ -514,13 +544,17 @@
 | 2171D | [Rae Taylor and Trees (easy version)](https://codeforces.com/contest/2171/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2171/D%20-%20Rae%20Taylor%20and%20Trees%20(easy%20version)/solution.cpp) |
 | 2185B | [Prefix Max](https://codeforces.com/contest/2185/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2185/B%20-%20Prefix%20Max/solution.cpp) |
 | 2185E | [The Robotic Rush](https://codeforces.com/contest/2185/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2185/E%20-%20The%20Robotic%20Rush/solution.cpp) |
+| 2232C2 | [Seating Arrangement (Hard Version)](https://codeforces.com/contest/2232/problem/C2) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2232/C2%20-%20Seating%20Arrangement%20(Hard%20Version)/solution.cpp) |
 
 ### hashing
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/126/B%20-%20Password/solution.cpp) |
+| 242C | [King's Path](https://codeforces.com/contest/242/problem/C) | 1800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/242/C%20-%20King's%20Path/solution.cpp) |
 | 407D | [Largest Submatrix 3](https://codeforces.com/contest/407/problem/D) | 2700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/407/D%20-%20Largest%20Submatrix%203/solution.cpp) |
 | 1225D | [Power Products](https://codeforces.com/contest/1225/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1225/D%20-%20Power%20Products/solution.cpp) |
+| 1360F | [Spy-string](https://codeforces.com/contest/1360/problem/F) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1360/F%20-%20Spy-string/solution.cpp) |
 | 1493D | [GCD of an Array](https://codeforces.com/contest/1493/problem/D) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1493/D%20-%20GCD%20of%20an%20Array/solution.cpp) |
 | 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
 | 1536C | [Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1536/C%20-%20Diluc%20and%20Kaeya/solution.cpp) |
@@ -544,6 +578,7 @@
 | 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.cpp) |
 | 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
 | 275A | [Lights Out](https://codeforces.com/contest/275/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/275/A%20-%20Lights%20Out/solution.cpp) |
+| 279C | [Ladder](https://codeforces.com/contest/279/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/279/C%20-%20Ladder/solution.cpp) |
 | 285B | [Find Marble](https://codeforces.com/contest/285/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/285/B%20-%20Find%20Marble/solution.cpp) |
 | 289B | [Polo the Penguin and Matrix](https://codeforces.com/contest/289/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/289/B%20-%20Polo%20the%20Penguin%20and%20Matrix/solution.cpp) |
 | 313B | [Ilya and Queries](https://codeforces.com/contest/313/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/313/B%20-%20Ilya%20and%20Queries/solution.cpp) |
@@ -558,6 +593,7 @@
 | 959B | [Mahmoud and Ehab and the message](https://codeforces.com/contest/959/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/959/B%20-%20Mahmoud%20and%20Ehab%20and%20the%20message/solution.cpp) |
 | 1088D | [Ehab and another another xor problem](https://codeforces.com/contest/1088/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1088/D%20-%20Ehab%20and%20another%20another%20xor%20problem/solution.cpp) |
 | 1181D | [Irrigation](https://codeforces.com/contest/1181/problem/D) | 2200 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1181/D%20-%20Irrigation/solution.cpp) |
+| 1380E | [Merging Towers](https://codeforces.com/contest/1380/problem/E) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1380/E%20-%20Merging%20Towers/solution.cpp) |
 | 1493D | [GCD of an Array](https://codeforces.com/contest/1493/problem/D) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1493/D%20-%20GCD%20of%20an%20Array/solution.cpp) |
 | 1669A | [Division?](https://codeforces.com/contest/1669/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1669/A%20-%20Division%3F/solution.cpp) |
 | 1676A | [Lucky?](https://codeforces.com/contest/1676/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1676/A%20-%20Lucky%3F/solution.cpp) |
@@ -604,6 +640,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 32C | [Flea](https://codeforces.com/contest/32/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/32/C%20-%20Flea/solution.cpp) |
+| 66D | [Petya and His Friends](https://codeforces.com/contest/66/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/66/D%20-%20Petya%20and%20His%20Friends/solution.cpp) |
 | 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/69/A%20-%20Young%20Physicist/solution.cpp) |
 | 166E | [Tetrahedron](https://codeforces.com/contest/166/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/166/E%20-%20Tetrahedron/solution.cpp) |
 | 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/200/B%20-%20Drinks/solution.cpp) |
@@ -615,6 +652,7 @@
 | 450B | [Jzzhu and Sequences](https://codeforces.com/contest/450/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/450/B%20-%20Jzzhu%20and%20Sequences/solution.cpp) |
 | 520B | [Two Buttons](https://codeforces.com/contest/520/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/520/B%20-%20Two%20Buttons/solution.cpp) |
 | 550C | [Divisibility by Eight](https://codeforces.com/contest/550/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/550/C%20-%20Divisibility%20by%20Eight/solution.cpp) |
+| 912E | [Prime Gift](https://codeforces.com/contest/912/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/912/E%20-%20Prime%20Gift/solution.cpp) |
 | 1139C | [Edgy Trees](https://codeforces.com/contest/1139/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1139/C%20-%20Edgy%20Trees/solution.cpp) |
 | 1201C | [Maximum Median](https://codeforces.com/contest/1201/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1201/C%20-%20Maximum%20Median/solution.cpp) |
 | 1225D | [Power Products](https://codeforces.com/contest/1225/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1225/D%20-%20Power%20Products/solution.cpp) |
@@ -685,6 +723,7 @@
 | 2171B | [Yuu Koito and Minimum Absolute Sum](https://codeforces.com/contest/2171/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2171/B%20-%20Yuu%20Koito%20and%20Minimum%20Absolute%20Sum/solution.cpp) |
 | 2185A | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2185/A%20-%20Perfect%20Root/solution.cpp) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.cpp) |
+| 2232C2 | [Seating Arrangement (Hard Version)](https://codeforces.com/contest/2232/problem/C2) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2232/C2%20-%20Seating%20Arrangement%20(Hard%20Version)/solution.cpp) |
 
 ### matrices
 
@@ -692,12 +731,22 @@
 |---|---------|------------|----------|
 | 166E | [Tetrahedron](https://codeforces.com/contest/166/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/166/E%20-%20Tetrahedron/solution.cpp) |
 
+### meet-in-the-middle
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 912E | [Prime Gift](https://codeforces.com/contest/912/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/912/E%20-%20Prime%20Gift/solution.cpp) |
+| 1006F | [Xor-Paths](https://codeforces.com/contest/1006/problem/F) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1006/F%20-%20Xor-Paths/solution.cpp) |
+
 ### number theory
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 26A | [Almost Prime](https://codeforces.com/contest/26/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/26/A%20-%20Almost%20Prime/solution.cpp) |
+| 66D | [Petya and His Friends](https://codeforces.com/contest/66/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/66/D%20-%20Petya%20and%20His%20Friends/solution.cpp) |
 | 271B | [Prime Matrix](https://codeforces.com/contest/271/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/271/B%20-%20Prime%20Matrix/solution.cpp) |
+| 912E | [Prime Gift](https://codeforces.com/contest/912/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/912/E%20-%20Prime%20Gift/solution.cpp) |
+| 990G | [GCD Counting](https://codeforces.com/contest/990/problem/G) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/990/G%20-%20GCD%20Counting/solution.cpp) |
 | 1225D | [Power Products](https://codeforces.com/contest/1225/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1225/D%20-%20Power%20Products/solution.cpp) |
 | 1349A | [Orac and LCM](https://codeforces.com/contest/1349/problem/A) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1349/A%20-%20Orac%20and%20LCM/solution.cpp) |
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.cpp) |
@@ -731,6 +780,8 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/14/D%20-%20Two%20Paths/solution.cpp) |
+| 242C | [King's Path](https://codeforces.com/contest/242/problem/C) | 1800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/242/C%20-%20King's%20Path/solution.cpp) |
 | 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
 | 520B | [Two Buttons](https://codeforces.com/contest/520/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/520/B%20-%20Two%20Buttons/solution.cpp) |
 | 598D | [Igor In the Museum](https://codeforces.com/contest/598/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/598/D%20-%20Igor%20In%20the%20Museum/solution.cpp) |
@@ -781,6 +832,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/126/B%20-%20Password/solution.cpp) |
 | 2095A | [Piecing It Together](https://codeforces.com/contest/2095/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2095/A%20-%20Piecing%20It%20Together/solution.cpp) |
 
 ### strings
@@ -789,7 +841,9 @@
 |---|---------|------------|----------|
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.cpp) |
 | 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.cpp) |
+| 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/126/B%20-%20Password/solution.cpp) |
 | 814C | [An impassioned circulation of affection](https://codeforces.com/contest/814/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/814/C%20-%20An%20impassioned%20circulation%20of%20affection/solution.cpp) |
+| 1360F | [Spy-string](https://codeforces.com/contest/1360/problem/F) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1360/F%20-%20Spy-string/solution.cpp) |
 | 1791A | [Codeforces Checking](https://codeforces.com/contest/1791/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1791/A%20-%20Codeforces%20Checking/solution.cpp) |
 | 1851F | [Lisa and the Martians](https://codeforces.com/contest/1851/problem/F) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1851/F%20-%20Lisa%20and%20the%20Martians/solution.cpp) |
 | 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.cpp) |
@@ -815,11 +869,15 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/14/D%20-%20Two%20Paths/solution.cpp) |
+| 208E | [Blood Cousins](https://codeforces.com/contest/208/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/208/E%20-%20Blood%20Cousins/solution.cpp) |
 | 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
+| 990G | [GCD Counting](https://codeforces.com/contest/990/problem/G) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/990/G%20-%20GCD%20Counting/solution.cpp) |
 | 1051F | [The Shortest Statement](https://codeforces.com/contest/1051/problem/F) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1051/F%20-%20The%20Shortest%20Statement/solution.cpp) |
 | 1139C | [Edgy Trees](https://codeforces.com/contest/1139/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1139/C%20-%20Edgy%20Trees/solution.cpp) |
 | 1181D | [Irrigation](https://codeforces.com/contest/1181/problem/D) | 2200 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1181/D%20-%20Irrigation/solution.cpp) |
 | 1328E | [Tree Queries](https://codeforces.com/contest/1328/problem/E) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1328/E%20-%20Tree%20Queries/solution.cpp) |
+| 1380E | [Merging Towers](https://codeforces.com/contest/1380/problem/E) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1380/E%20-%20Merging%20Towers/solution.cpp) |
 | 1827B1 | [Range Sorting (Easy Version)](https://codeforces.com/contest/1827/problem/B1) | 2000 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1827/B1%20-%20Range%20Sorting%20(Easy%20Version)/solution.cpp) |
 | 1851F | [Lisa and the Martians](https://codeforces.com/contest/1851/problem/F) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1851/F%20-%20Lisa%20and%20the%20Martians/solution.cpp) |
 | 2114E | [Kirei Attacks the Estate](https://codeforces.com/contest/2114/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2114/E%20-%20Kirei%20Attacks%20the%20Estate/solution.cpp) |
@@ -830,9 +888,12 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/14/D%20-%20Two%20Paths/solution.cpp) |
+| 279C | [Ladder](https://codeforces.com/contest/279/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/279/C%20-%20Ladder/solution.cpp) |
 | 427C | [Checkposts](https://codeforces.com/contest/427/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/427/C%20-%20Checkposts/solution.cpp) |
 | 466C | [Number of Ways](https://codeforces.com/contest/466/problem/C) | 1700 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/466/C%20-%20Number%20of%20Ways/solution.cpp) |
 | 814C | [An impassioned circulation of affection](https://codeforces.com/contest/814/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/814/C%20-%20An%20impassioned%20circulation%20of%20affection/solution.cpp) |
+| 912E | [Prime Gift](https://codeforces.com/contest/912/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/912/E%20-%20Prime%20Gift/solution.cpp) |
 | 1181D | [Irrigation](https://codeforces.com/contest/1181/problem/D) | 2200 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1181/D%20-%20Irrigation/solution.cpp) |
 | 1244E | [Minimizing Difference](https://codeforces.com/contest/1244/problem/E) | 2000 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1244/E%20-%20Minimizing%20Difference/solution.cpp) |
 | 1327F | [AND Segments](https://codeforces.com/contest/1327/problem/F) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1327/F%20-%20AND%20Segments/solution.cpp) |
@@ -846,6 +907,7 @@
 | 2149E | [Hidden Knowledge of the Ancients](https://codeforces.com/contest/2149/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2149/E%20-%20Hidden%20Knowledge%20of%20the%20Ancients/solution.cpp) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.cpp) |
 | 2185E | [The Robotic Rush](https://codeforces.com/contest/2185/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2185/E%20-%20The%20Robotic%20Rush/solution.cpp) |
+| 2232C2 | [Seating Arrangement (Hard Version)](https://codeforces.com/contest/2232/problem/C2) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2232/C2%20-%20Seating%20Arrangement%20(Hard%20Version)/solution.cpp) |
 
 ---
 
