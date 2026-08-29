@@ -1,0 +1,19 @@
+<h2><a href="https://codeforces.com/contest/2074/problem/A" target="_blank" rel="noopener noreferrer">2074A — Draw a Square</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2074A](https://codeforces.com/contest/2074/problem/A) |
+
+## Topics
+`geometry` `implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Draw a Square</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>The pink soldiers have given you $$$4$$$ <span class="tex-font-style-bf">distinct points</span> on the plane. The $$$4$$$ points' coordinates are $$$(-l,0)$$$, $$$(r,0)$$$, $$$(0,-d)$$$, $$$(0,u)$$$ correspondingly, where $$$l$$$, $$$r$$$, $$$d$$$, $$$u$$$ are positive integers.</p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/280d7475bd2765cb5054e65e90e80526f8b96081.png" style="zoom: 60.0%;max-width: 100.0%;max-height: 100.0%;">   <span class="tex-font-size-small">In the diagram, a square is drawn by connecting the four points $$$L$$$, $$$R$$$, $$$D$$$, $$$U$$$.</span> </center><p>Please determine if it is possible to draw a square$$$^{\text{∗}}$$$ with the given points as its vertices.</p><div class="statement-footnote"><p>$$$^{\text{∗}}$$$A <span class="tex-font-style-it">square</span> is defined as a polygon consisting of $$$4$$$ vertices, of which all sides have equal length and all inner angles are equal. No two edges of the polygon may intersect each other.</p></div></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 10^4$$$). The description of the test cases follows. </p><p>The first line of each test case contains four integers $$$l$$$, $$$r$$$, $$$d$$$, $$$u$$$ ($$$1 \le l,r,d,u \le 10$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, if you can draw a square using the four points, output "<span class="tex-font-style-tt">Yes</span>". Otherwise, output "<span class="tex-font-style-tt">No</span>".</p><p>You can output the answer in any case. For example, the strings "<span class="tex-font-style-tt">yEs</span>", "<span class="tex-font-style-tt">yes</span>", and "<span class="tex-font-style-tt">YES</span>" will also be recognized as positive responses.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007505239835742243" id="id009151701426724156" class="input-output-copier">Copy</div></div><pre id="id007505239835742243"><div class="test-example-line test-example-line-even test-example-line-0">2</div><div class="test-example-line test-example-line-odd test-example-line-1">2 2 2 2</div><div class="test-example-line test-example-line-even test-example-line-2">1 2 3 4</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006574372477636592" id="id0022458486466245065" class="input-output-copier">Copy</div></div><pre id="id006574372477636592">Yes
+No
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>On the first test case, the four given points form a square, so the answer is "<span class="tex-font-style-tt">Yes</span>".</p><p>On the second test case, the four given points do not form a square, so the answer is "<span class="tex-font-style-tt">No</span>".</p></div>
