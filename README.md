@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 330 | 34 |
+| 331 | 34 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (2)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (14)
+- [Uncategorized](#uncategorized) (15)
 - [binary search](#binary-search) (56)
 - [bitmasks](#bitmasks) (31)
 - [brute force](#brute-force) (51)
@@ -74,6 +74,7 @@
 | 2130D | [Stay or Mirror](https://codeforces.com/contest/2130/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2130/D%20-%20Stay%20or%20Mirror/solution.cpp) |
 | 2258A | [Odd Eraser](https://codeforces.com/contest/2258/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2258/A%20-%20Odd%20Eraser/solution.cpp) |
 | 2258B1 | [Carrot Chopdown (Easy Version)](https://codeforces.com/contest/2258/problem/B1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2258/B1%20-%20Carrot%20Chopdown%20(Easy%20Version)/solution.cpp) |
+| 2258C | [Far Cities](https://codeforces.com/contest/2258/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2258/C%20-%20Far%20Cities/solution.cpp) |
 | 100168D | [Площадь треугольника](https://codeforces.com/contest/100168/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/100168/D%20-%20%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C%20%D1%82%D1%80%D0%B5%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%B0/solution.cpp) |
 | 100168F | [Расстояние от точки до прямой](https://codeforces.com/contest/100168/problem/F) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/100168/F%20-%20%D0%A0%D0%B0%D1%81%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%82%20%D1%82%D0%BE%D1%87%D0%BA%D0%B8%20%D0%B4%D0%BE%20%D0%BF%D1%80%D1%8F%D0%BC%D0%BE%D0%B9/solution.cpp) |
 | 100168L | [Длина вектора](https://codeforces.com/contest/100168/problem/L) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/100168/L%20-%20%D0%94%D0%BB%D0%B8%D0%BD%D0%B0%20%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B0/solution.cpp) |
