@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 332 | 34 |
+| 333 | 34 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [combinatorics](#combinatorics) (13)
 - [constructive algorithms](#constructive-algorithms) (42)
 - [data structures](#data-structures) (71)
-- [dfs and similar](#dfs-and-similar) (38)
+- [dfs and similar](#dfs-and-similar) (39)
 - [divide and conquer](#divide-and-conquer) (11)
 - [dp](#dp) (81)
 - [dsu](#dsu) (20)
@@ -29,7 +29,7 @@
 - [games](#games) (6)
 - [geometry](#geometry) (7)
 - [graph matchings](#graph-matchings) (3)
-- [graphs](#graphs) (41)
+- [graphs](#graphs) (42)
 - [greedy](#greedy) (97)
 - [hashing](#hashing) (10)
 - [implementation](#implementation) (73)
@@ -44,7 +44,7 @@
 - [string suffix structures](#string-suffix-structures) (3)
 - [strings](#strings) (21)
 - [ternary search](#ternary-search) (3)
-- [trees](#trees) (29)
+- [trees](#trees) (30)
 - [two pointers](#two-pointers) (23)
 
 ---
@@ -391,6 +391,7 @@
 | 475E | [Strongly Connected City 2](https://codeforces.com/contest/475/problem/E) | 2700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/475/E%20-%20Strongly%20Connected%20City%202/solution.cpp) |
 | 510C | [Fox And Names](https://codeforces.com/contest/510/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/510/C%20-%20Fox%20And%20Names/solution.cpp) |
 | 520B | [Two Buttons](https://codeforces.com/contest/520/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/520/B%20-%20Two%20Buttons/solution.cpp) |
+| 555E | [Case of Computer Network](https://codeforces.com/contest/555/problem/E) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/555/E%20-%20Case%20of%20Computer%20Network/solution.cpp) |
 | 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 598D | [Igor In the Museum](https://codeforces.com/contest/598/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/598/D%20-%20Igor%20In%20the%20Museum/solution.cpp) |
 | 613D | [Kingdom and its Cities](https://codeforces.com/contest/613/problem/D) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/613/D%20-%20Kingdom%20and%20its%20Cities/solution.cpp) |
@@ -595,6 +596,7 @@
 | 427C | [Checkposts](https://codeforces.com/contest/427/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/427/C%20-%20Checkposts/solution.cpp) |
 | 510C | [Fox And Names](https://codeforces.com/contest/510/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/510/C%20-%20Fox%20And%20Names/solution.cpp) |
 | 520B | [Two Buttons](https://codeforces.com/contest/520/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/520/B%20-%20Two%20Buttons/solution.cpp) |
+| 555E | [Case of Computer Network](https://codeforces.com/contest/555/problem/E) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/555/E%20-%20Case%20of%20Computer%20Network/solution.cpp) |
 | 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 598D | [Igor In the Museum](https://codeforces.com/contest/598/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/598/D%20-%20Igor%20In%20the%20Museum/solution.cpp) |
 | 613D | [Kingdom and its Cities](https://codeforces.com/contest/613/problem/D) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/613/D%20-%20Kingdom%20and%20its%20Cities/solution.cpp) |
@@ -1127,6 +1129,7 @@
 | 208E | [Blood Cousins](https://codeforces.com/contest/208/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/208/E%20-%20Blood%20Cousins/solution.cpp) |
 | 474E | [Pillars](https://codeforces.com/contest/474/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/474/E%20-%20Pillars/solution.cpp) |
 | 482B | [Interesting Array](https://codeforces.com/contest/482/problem/B) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/482/B%20-%20Interesting%20Array/solution.cpp) |
+| 555E | [Case of Computer Network](https://codeforces.com/contest/555/problem/E) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/555/E%20-%20Case%20of%20Computer%20Network/solution.cpp) |
 | 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 613D | [Kingdom and its Cities](https://codeforces.com/contest/613/problem/D) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/613/D%20-%20Kingdom%20and%20its%20Cities/solution.cpp) |
 | 990G | [GCD Counting](https://codeforces.com/contest/990/problem/G) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/990/G%20-%20GCD%20Counting/solution.cpp) |
