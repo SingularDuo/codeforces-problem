@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 333 | 34 |
+| 334 | 34 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (2)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (16)
+- [Uncategorized](#uncategorized) (17)
 - [binary search](#binary-search) (56)
 - [bitmasks](#bitmasks) (31)
 - [brute force](#brute-force) (51)
@@ -68,6 +68,7 @@
 |---|---------|------------|----------|
 | 221D | [Little Elephant and Array](https://codeforces.com/contest/221/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/221/D%20-%20Little%20Elephant%20and%20Array/solution.cpp) |
 | 516C | [Drazil and Park](https://codeforces.com/contest/516/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/516/C%20-%20Drazil%20and%20Park/solution.cpp) |
+| 529C | [Rooks and Rectangles](https://codeforces.com/contest/529/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/529/C%20-%20Rooks%20and%20Rectangles/solution.cpp) |
 | 782B | [The Meeting Place Cannot Be Changed](https://codeforces.com/contest/782/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/782/B%20-%20The%20Meeting%20Place%20Cannot%20Be%20Changed/solution.cpp) |
 | 819A | [Mister B and Boring Game](https://codeforces.com/contest/819/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/819/A%20-%20Mister%20B%20and%20Boring%20Game/solution.cpp) |
 | 2130C | [Double Perspective](https://codeforces.com/contest/2130/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2130/C%20-%20Double%20Perspective/solution.cpp) |
