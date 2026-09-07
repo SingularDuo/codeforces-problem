@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 335 | 34 |
+| 336 | 34 |
 
 ---
 
@@ -20,10 +20,10 @@
 - [brute force](#brute-force) (51)
 - [combinatorics](#combinatorics) (13)
 - [constructive algorithms](#constructive-algorithms) (42)
-- [data structures](#data-structures) (72)
+- [data structures](#data-structures) (73)
 - [dfs and similar](#dfs-and-similar) (40)
 - [divide and conquer](#divide-and-conquer) (11)
-- [dp](#dp) (81)
+- [dp](#dp) (82)
 - [dsu](#dsu) (20)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (6)
@@ -310,6 +310,7 @@
 | 19D | [Points](https://codeforces.com/contest/19/problem/D) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/19/D%20-%20Points/solution.cpp) |
 | 61E | [Enemy is weak](https://codeforces.com/contest/61/problem/E) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/61/E%20-%20Enemy%20is%20weak/solution.cpp) |
 | 91B | [Queue](https://codeforces.com/contest/91/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/91/B%20-%20Queue/solution.cpp) |
+| 115E | [Linear Kingdom Races](https://codeforces.com/contest/115/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/115/E%20-%20Linear%20Kingdom%20Races/solution.cpp) |
 | 121E | [Lucky Array](https://codeforces.com/contest/121/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/121/E%20-%20Lucky%20Array/solution.cpp) |
 | 208E | [Blood Cousins](https://codeforces.com/contest/208/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/208/E%20-%20Blood%20Cousins/solution.cpp) |
 | 242E | [XOR on Segment](https://codeforces.com/contest/242/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/242/E%20-%20XOR%20on%20Segment/solution.cpp) |
@@ -447,6 +448,7 @@
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.cpp) |
 | 10D | [LCIS](https://codeforces.com/contest/10/problem/D) | 2800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/10/D%20-%20LCIS/solution.cpp) |
 | 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/14/D%20-%20Two%20Paths/solution.cpp) |
+| 115E | [Linear Kingdom Races](https://codeforces.com/contest/115/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/115/E%20-%20Linear%20Kingdom%20Races/solution.cpp) |
 | 118D | [Caesar's Legions](https://codeforces.com/contest/118/problem/D) | 1700 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/118/D%20-%20Caesar's%20Legions/solution.cpp) |
 | 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/126/B%20-%20Password/solution.cpp) |
 | 161D | [Distance in Tree](https://codeforces.com/contest/161/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/161/D%20-%20Distance%20in%20Tree/solution.cpp) |
