@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 337 | 34 |
+| 338 | 34 |
 
 ---
 
@@ -20,11 +20,11 @@
 - [brute force](#brute-force) (51)
 - [combinatorics](#combinatorics) (13)
 - [constructive algorithms](#constructive-algorithms) (42)
-- [data structures](#data-structures) (74)
+- [data structures](#data-structures) (75)
 - [dfs and similar](#dfs-and-similar) (40)
 - [divide and conquer](#divide-and-conquer) (11)
 - [dp](#dp) (82)
-- [dsu](#dsu) (20)
+- [dsu](#dsu) (21)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (6)
 - [geometry](#geometry) (7)
@@ -307,6 +307,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.cpp) |
+| 13E | [Holes](https://codeforces.com/contest/13/problem/E) | 2700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/13/E%20-%20Holes/solution.cpp) |
 | 19D | [Points](https://codeforces.com/contest/19/problem/D) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/19/D%20-%20Points/solution.cpp) |
 | 61E | [Enemy is weak](https://codeforces.com/contest/61/problem/E) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/61/E%20-%20Enemy%20is%20weak/solution.cpp) |
 | 91B | [Queue](https://codeforces.com/contest/91/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/91/B%20-%20Queue/solution.cpp) |
@@ -533,6 +534,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 13E | [Holes](https://codeforces.com/contest/13/problem/E) | 2700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/13/E%20-%20Holes/solution.cpp) |
 | 160D | [Edges in MST](https://codeforces.com/contest/160/problem/D) | 2300 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/160/D%20-%20Edges%20in%20MST/solution.cpp) |
 | 468B | [Two Sets](https://codeforces.com/contest/468/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/468/B%20-%20Two%20Sets/solution.cpp) |
 | 722C | [Destroying Array](https://codeforces.com/contest/722/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/722/C%20-%20Destroying%20Array/solution.cpp) |
