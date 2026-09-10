@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 338 | 34 |
+| 339 | 34 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [brute force](#brute-force) (51)
 - [combinatorics](#combinatorics) (13)
 - [constructive algorithms](#constructive-algorithms) (42)
-- [data structures](#data-structures) (75)
+- [data structures](#data-structures) (76)
 - [dfs and similar](#dfs-and-similar) (40)
 - [divide and conquer](#divide-and-conquer) (11)
 - [dp](#dp) (82)
@@ -343,6 +343,7 @@
 | 932F | [Escape Through Leaf](https://codeforces.com/contest/932/problem/F) | 2700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/932/F%20-%20Escape%20Through%20Leaf/solution.cpp) |
 | 1000F | [One Occurrence](https://codeforces.com/contest/1000/problem/F) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1000/F%20-%20One%20Occurrence/solution.cpp) |
 | 1017D | [The Wu](https://codeforces.com/contest/1017/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1017/D%20-%20The%20Wu/solution.cpp) |
+| 1017G | [The Tree](https://codeforces.com/contest/1017/problem/G) | 3200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1017/G%20-%20The%20Tree/solution.cpp) |
 | 1093G | [Multidimensional Queries](https://codeforces.com/contest/1093/problem/G) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1093/G%20-%20Multidimensional%20Queries/solution.cpp) |
 | 1181D | [Irrigation](https://codeforces.com/contest/1181/problem/D) | 2200 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1181/D%20-%20Irrigation/solution.cpp) |
 | 1234D | [Distinct Characters Queries](https://codeforces.com/contest/1234/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1234/D%20-%20Distinct%20Characters%20Queries/solution.cpp) |
