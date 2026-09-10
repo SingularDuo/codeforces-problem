@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 339 | 34 |
+| 340 | 34 |
 
 ---
 
@@ -20,8 +20,8 @@
 - [brute force](#brute-force) (51)
 - [combinatorics](#combinatorics) (13)
 - [constructive algorithms](#constructive-algorithms) (42)
-- [data structures](#data-structures) (76)
-- [dfs and similar](#dfs-and-similar) (40)
+- [data structures](#data-structures) (77)
+- [dfs and similar](#dfs-and-similar) (41)
 - [divide and conquer](#divide-and-conquer) (11)
 - [dp](#dp) (82)
 - [dsu](#dsu) (21)
@@ -44,7 +44,7 @@
 - [string suffix structures](#string-suffix-structures) (3)
 - [strings](#strings) (21)
 - [ternary search](#ternary-search) (3)
-- [trees](#trees) (32)
+- [trees](#trees) (33)
 - [two pointers](#two-pointers) (23)
 
 ---
@@ -319,6 +319,7 @@
 | 292E | [Copying Data](https://codeforces.com/contest/292/problem/E) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/292/E%20-%20Copying%20Data/solution.cpp) |
 | 369E | [Valera and Queries](https://codeforces.com/contest/369/problem/E) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/369/E%20-%20Valera%20and%20Queries/solution.cpp) |
 | 375D | [Tree and Queries](https://codeforces.com/contest/375/problem/D) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/375/D%20-%20Tree%20and%20Queries/solution.cpp) |
+| 383C | [Propagating tree](https://codeforces.com/contest/383/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/383/C%20-%20Propagating%20tree/solution.cpp) |
 | 400E | [Inna and Binary Logic](https://codeforces.com/contest/400/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/400/E%20-%20Inna%20and%20Binary%20Logic/solution.cpp) |
 | 438D | [The Child and Sequence](https://codeforces.com/contest/438/problem/D) | 2300 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/438/D%20-%20The%20Child%20and%20Sequence/solution.cpp) |
 | 459D | [Pashmak and Parmida's problem](https://codeforces.com/contest/459/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/459/D%20-%20Pashmak%20and%20Parmida's%20problem/solution.cpp) |
@@ -393,6 +394,7 @@
 | 208E | [Blood Cousins](https://codeforces.com/contest/208/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/208/E%20-%20Blood%20Cousins/solution.cpp) |
 | 242C | [King's Path](https://codeforces.com/contest/242/problem/C) | 1800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/242/C%20-%20King's%20Path/solution.cpp) |
 | 375D | [Tree and Queries](https://codeforces.com/contest/375/problem/D) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/375/D%20-%20Tree%20and%20Queries/solution.cpp) |
+| 383C | [Propagating tree](https://codeforces.com/contest/383/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/383/C%20-%20Propagating%20tree/solution.cpp) |
 | 427C | [Checkposts](https://codeforces.com/contest/427/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/427/C%20-%20Checkposts/solution.cpp) |
 | 468B | [Two Sets](https://codeforces.com/contest/468/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/468/B%20-%20Two%20Sets/solution.cpp) |
 | 475E | [Strongly Connected City 2](https://codeforces.com/contest/475/problem/E) | 2700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/475/E%20-%20Strongly%20Connected%20City%202/solution.cpp) |
@@ -1139,6 +1141,7 @@
 | 208E | [Blood Cousins](https://codeforces.com/contest/208/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/208/E%20-%20Blood%20Cousins/solution.cpp) |
 | 276E | [Little Girl and Problem on Trees](https://codeforces.com/contest/276/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/276/E%20-%20Little%20Girl%20and%20Problem%20on%20Trees/solution.cpp) |
 | 375D | [Tree and Queries](https://codeforces.com/contest/375/problem/D) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/375/D%20-%20Tree%20and%20Queries/solution.cpp) |
+| 383C | [Propagating tree](https://codeforces.com/contest/383/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/383/C%20-%20Propagating%20tree/solution.cpp) |
 | 474E | [Pillars](https://codeforces.com/contest/474/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/474/E%20-%20Pillars/solution.cpp) |
 | 482B | [Interesting Array](https://codeforces.com/contest/482/problem/B) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/482/B%20-%20Interesting%20Array/solution.cpp) |
 | 555E | [Case of Computer Network](https://codeforces.com/contest/555/problem/E) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/555/E%20-%20Case%20of%20Computer%20Network/solution.cpp) |
