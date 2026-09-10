@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 340 | 34 |
+| 341 | 34 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [brute force](#brute-force) (51)
 - [combinatorics](#combinatorics) (13)
 - [constructive algorithms](#constructive-algorithms) (42)
-- [data structures](#data-structures) (77)
+- [data structures](#data-structures) (78)
 - [dfs and similar](#dfs-and-similar) (41)
 - [divide and conquer](#divide-and-conquer) (11)
 - [dp](#dp) (82)
@@ -317,6 +317,7 @@
 | 242E | [XOR on Segment](https://codeforces.com/contest/242/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/242/E%20-%20XOR%20on%20Segment/solution.cpp) |
 | 276E | [Little Girl and Problem on Trees](https://codeforces.com/contest/276/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/276/E%20-%20Little%20Girl%20and%20Problem%20on%20Trees/solution.cpp) |
 | 292E | [Copying Data](https://codeforces.com/contest/292/problem/E) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/292/E%20-%20Copying%20Data/solution.cpp) |
+| 301D | [Yaroslav and Divisors](https://codeforces.com/contest/301/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/301/D%20-%20Yaroslav%20and%20Divisors/solution.cpp) |
 | 369E | [Valera and Queries](https://codeforces.com/contest/369/problem/E) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/369/E%20-%20Valera%20and%20Queries/solution.cpp) |
 | 375D | [Tree and Queries](https://codeforces.com/contest/375/problem/D) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/375/D%20-%20Tree%20and%20Queries/solution.cpp) |
 | 383C | [Propagating tree](https://codeforces.com/contest/383/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/383/C%20-%20Propagating%20tree/solution.cpp) |
