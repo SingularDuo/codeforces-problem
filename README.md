@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 341 | 34 |
+| 342 | 34 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [brute force](#brute-force) (51)
 - [combinatorics](#combinatorics) (13)
 - [constructive algorithms](#constructive-algorithms) (42)
-- [data structures](#data-structures) (78)
+- [data structures](#data-structures) (79)
 - [dfs and similar](#dfs-and-similar) (41)
 - [divide and conquer](#divide-and-conquer) (11)
 - [dp](#dp) (82)
@@ -32,9 +32,9 @@
 - [graphs](#graphs) (43)
 - [greedy](#greedy) (97)
 - [hashing](#hashing) (10)
-- [implementation](#implementation) (73)
+- [implementation](#implementation) (74)
 - [interactive](#interactive) (1)
-- [math](#math) (101)
+- [math](#math) (102)
 - [matrices](#matrices) (1)
 - [meet-in-the-middle](#meet-in-the-middle) (3)
 - [number theory](#number-theory) (33)
@@ -45,7 +45,7 @@
 - [strings](#strings) (21)
 - [ternary search](#ternary-search) (3)
 - [trees](#trees) (33)
-- [two pointers](#two-pointers) (23)
+- [two pointers](#two-pointers) (24)
 
 ---
 
@@ -310,6 +310,7 @@
 | 13E | [Holes](https://codeforces.com/contest/13/problem/E) | 2700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/13/E%20-%20Holes/solution.cpp) |
 | 19D | [Points](https://codeforces.com/contest/19/problem/D) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/19/D%20-%20Points/solution.cpp) |
 | 61E | [Enemy is weak](https://codeforces.com/contest/61/problem/E) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/61/E%20-%20Enemy%20is%20weak/solution.cpp) |
+| 86D | [Powerful array](https://codeforces.com/contest/86/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/86/D%20-%20Powerful%20array/solution.cpp) |
 | 91B | [Queue](https://codeforces.com/contest/91/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/91/B%20-%20Queue/solution.cpp) |
 | 115E | [Linear Kingdom Races](https://codeforces.com/contest/115/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/115/E%20-%20Linear%20Kingdom%20Races/solution.cpp) |
 | 121E | [Lucky Array](https://codeforces.com/contest/121/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/121/E%20-%20Lucky%20Array/solution.cpp) |
@@ -769,6 +770,7 @@
 | 32B | [Borze](https://codeforces.com/contest/32/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/32/B%20-%20Borze/solution.cpp) |
 | 61A | [Ultra-Fast Mathematician](https://codeforces.com/contest/61/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/61/A%20-%20Ultra-Fast%20Mathematician/solution.cpp) |
 | 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/69/A%20-%20Young%20Physicist/solution.cpp) |
+| 86D | [Powerful array](https://codeforces.com/contest/86/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/86/D%20-%20Powerful%20array/solution.cpp) |
 | 104A | [Blackjack](https://codeforces.com/contest/104/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/104/A%20-%20Blackjack/solution.cpp) |
 | 110A | [Nearly Lucky Number](https://codeforces.com/contest/110/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/110/A%20-%20Nearly%20Lucky%20Number/solution.cpp) |
 | 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.cpp) |
@@ -854,6 +856,7 @@
 | 32C | [Flea](https://codeforces.com/contest/32/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/32/C%20-%20Flea/solution.cpp) |
 | 66D | [Petya and His Friends](https://codeforces.com/contest/66/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/66/D%20-%20Petya%20and%20His%20Friends/solution.cpp) |
 | 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/69/A%20-%20Young%20Physicist/solution.cpp) |
+| 86D | [Powerful array](https://codeforces.com/contest/86/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/86/D%20-%20Powerful%20array/solution.cpp) |
 | 166E | [Tetrahedron](https://codeforces.com/contest/166/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/166/E%20-%20Tetrahedron/solution.cpp) |
 | 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/200/B%20-%20Drinks/solution.cpp) |
 | 260A | [Adding Digits](https://codeforces.com/contest/260/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/260/A%20-%20Adding%20Digits/solution.cpp) |
@@ -1175,6 +1178,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/14/D%20-%20Two%20Paths/solution.cpp) |
+| 86D | [Powerful array](https://codeforces.com/contest/86/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/86/D%20-%20Powerful%20array/solution.cpp) |
 | 279C | [Ladder](https://codeforces.com/contest/279/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/279/C%20-%20Ladder/solution.cpp) |
 | 427C | [Checkposts](https://codeforces.com/contest/427/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/427/C%20-%20Checkposts/solution.cpp) |
 | 432D | [Prefixes and Suffixes](https://codeforces.com/contest/432/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/432/D%20-%20Prefixes%20and%20Suffixes/solution.cpp) |
