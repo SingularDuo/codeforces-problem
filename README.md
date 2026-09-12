@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 342 | 34 |
+| 344 | 34 |
 
 ---
 
@@ -20,11 +20,11 @@
 - [brute force](#brute-force) (51)
 - [combinatorics](#combinatorics) (13)
 - [constructive algorithms](#constructive-algorithms) (42)
-- [data structures](#data-structures) (79)
-- [dfs and similar](#dfs-and-similar) (41)
+- [data structures](#data-structures) (80)
+- [dfs and similar](#dfs-and-similar) (42)
 - [divide and conquer](#divide-and-conquer) (11)
-- [dp](#dp) (82)
-- [dsu](#dsu) (21)
+- [dp](#dp) (83)
+- [dsu](#dsu) (22)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (6)
 - [geometry](#geometry) (7)
@@ -34,7 +34,7 @@
 - [hashing](#hashing) (10)
 - [implementation](#implementation) (74)
 - [interactive](#interactive) (1)
-- [math](#math) (102)
+- [math](#math) (103)
 - [matrices](#matrices) (1)
 - [meet-in-the-middle](#meet-in-the-middle) (3)
 - [number theory](#number-theory) (33)
@@ -44,7 +44,7 @@
 - [string suffix structures](#string-suffix-structures) (3)
 - [strings](#strings) (21)
 - [ternary search](#ternary-search) (3)
-- [trees](#trees) (33)
+- [trees](#trees) (34)
 - [two pointers](#two-pointers) (24)
 
 ---
@@ -331,6 +331,7 @@
 | 482B | [Interesting Array](https://codeforces.com/contest/482/problem/B) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/482/B%20-%20Interesting%20Array/solution.cpp) |
 | 484E | [Sign on Fence](https://codeforces.com/contest/484/problem/E) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/484/E%20-%20Sign%20on%20Fence/solution.cpp) |
 | 515E | [Drazil and Park](https://codeforces.com/contest/515/problem/E) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/515/E%20-%20Drazil%20and%20Park/solution.cpp) |
+| 600E | [Lomsat gelral](https://codeforces.com/contest/600/problem/E) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/600/E%20-%20Lomsat%20gelral/solution.cpp) |
 | 609F | [Frogs and mosquitoes](https://codeforces.com/contest/609/problem/F) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/609/F%20-%20Frogs%20and%20mosquitoes/solution.cpp) |
 | 631C | [Report](https://codeforces.com/contest/631/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/631/C%20-%20Report/solution.cpp) |
 | 722C | [Destroying Array](https://codeforces.com/contest/722/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/722/C%20-%20Destroying%20Array/solution.cpp) |
@@ -405,6 +406,7 @@
 | 555E | [Case of Computer Network](https://codeforces.com/contest/555/problem/E) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/555/E%20-%20Case%20of%20Computer%20Network/solution.cpp) |
 | 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 598D | [Igor In the Museum](https://codeforces.com/contest/598/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/598/D%20-%20Igor%20In%20the%20Museum/solution.cpp) |
+| 600E | [Lomsat gelral](https://codeforces.com/contest/600/problem/E) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/600/E%20-%20Lomsat%20gelral/solution.cpp) |
 | 613D | [Kingdom and its Cities](https://codeforces.com/contest/613/problem/D) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/613/D%20-%20Kingdom%20and%20its%20Cities/solution.cpp) |
 | 744A | [Hongcow Builds A Nation](https://codeforces.com/contest/744/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/744/A%20-%20Hongcow%20Builds%20A%20Nation/solution.cpp) |
 | 877D | [Olya and Energy Drinks](https://codeforces.com/contest/877/problem/D) | 2100 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/877/D%20-%20Olya%20and%20Energy%20Drinks/solution.cpp) |
@@ -452,6 +454,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2B | [The least round way](https://codeforces.com/contest/2/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2/B%20-%20The%20least%20round%20way/solution.cpp) |
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.cpp) |
 | 10D | [LCIS](https://codeforces.com/contest/10/problem/D) | 2800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/10/D%20-%20LCIS/solution.cpp) |
 | 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/14/D%20-%20Two%20Paths/solution.cpp) |
@@ -542,6 +545,7 @@
 | 13E | [Holes](https://codeforces.com/contest/13/problem/E) | 2700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/13/E%20-%20Holes/solution.cpp) |
 | 160D | [Edges in MST](https://codeforces.com/contest/160/problem/D) | 2300 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/160/D%20-%20Edges%20in%20MST/solution.cpp) |
 | 468B | [Two Sets](https://codeforces.com/contest/468/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/468/B%20-%20Two%20Sets/solution.cpp) |
+| 600E | [Lomsat gelral](https://codeforces.com/contest/600/problem/E) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/600/E%20-%20Lomsat%20gelral/solution.cpp) |
 | 722C | [Destroying Array](https://codeforces.com/contest/722/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/722/C%20-%20Destroying%20Array/solution.cpp) |
 | 875F | [Royal Questions](https://codeforces.com/contest/875/problem/F) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/875/F%20-%20Royal%20Questions/solution.cpp) |
 | 920E | [Connected Components?](https://codeforces.com/contest/920/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/920/E%20-%20Connected%20Components%3F/solution.cpp) |
@@ -852,6 +856,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2B | [The least round way](https://codeforces.com/contest/2/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2/B%20-%20The%20least%20round%20way/solution.cpp) |
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/4/A%20-%20Watermelon/solution.cpp) |
 | 32C | [Flea](https://codeforces.com/contest/32/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/32/C%20-%20Flea/solution.cpp) |
 | 66D | [Petya and His Friends](https://codeforces.com/contest/66/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/66/D%20-%20Petya%20and%20His%20Friends/solution.cpp) |
@@ -1150,6 +1155,7 @@
 | 482B | [Interesting Array](https://codeforces.com/contest/482/problem/B) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/482/B%20-%20Interesting%20Array/solution.cpp) |
 | 555E | [Case of Computer Network](https://codeforces.com/contest/555/problem/E) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/555/E%20-%20Case%20of%20Computer%20Network/solution.cpp) |
 | 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
+| 600E | [Lomsat gelral](https://codeforces.com/contest/600/problem/E) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/600/E%20-%20Lomsat%20gelral/solution.cpp) |
 | 613D | [Kingdom and its Cities](https://codeforces.com/contest/613/problem/D) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/613/D%20-%20Kingdom%20and%20its%20Cities/solution.cpp) |
 | 990G | [GCD Counting](https://codeforces.com/contest/990/problem/G) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/990/G%20-%20GCD%20Counting/solution.cpp) |
 | 1051F | [The Shortest Statement](https://codeforces.com/contest/1051/problem/F) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1051/F%20-%20The%20Shortest%20Statement/solution.cpp) |
