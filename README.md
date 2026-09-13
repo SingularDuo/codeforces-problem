@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 344 | 34 |
+| 345 | 34 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [brute force](#brute-force) (51)
 - [combinatorics](#combinatorics) (13)
 - [constructive algorithms](#constructive-algorithms) (42)
-- [data structures](#data-structures) (80)
+- [data structures](#data-structures) (81)
 - [dfs and similar](#dfs-and-similar) (42)
 - [divide and conquer](#divide-and-conquer) (11)
 - [dp](#dp) (83)
@@ -309,6 +309,7 @@
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.cpp) |
 | 13E | [Holes](https://codeforces.com/contest/13/problem/E) | 2700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/13/E%20-%20Holes/solution.cpp) |
 | 19D | [Points](https://codeforces.com/contest/19/problem/D) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/19/D%20-%20Points/solution.cpp) |
+| 52C | [Circular RMQ](https://codeforces.com/contest/52/problem/C) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/52/C%20-%20Circular%20RMQ/solution.cpp) |
 | 61E | [Enemy is weak](https://codeforces.com/contest/61/problem/E) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/61/E%20-%20Enemy%20is%20weak/solution.cpp) |
 | 86D | [Powerful array](https://codeforces.com/contest/86/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/86/D%20-%20Powerful%20array/solution.cpp) |
 | 91B | [Queue](https://codeforces.com/contest/91/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/91/B%20-%20Queue/solution.cpp) |
