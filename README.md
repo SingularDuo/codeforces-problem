@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 347 | 34 |
+| 348 | 34 |
 
 ---
 
@@ -29,8 +29,8 @@
 - [games](#games) (6)
 - [geometry](#geometry) (7)
 - [graph matchings](#graph-matchings) (3)
-- [graphs](#graphs) (43)
-- [greedy](#greedy) (97)
+- [graphs](#graphs) (44)
+- [greedy](#greedy) (98)
 - [hashing](#hashing) (10)
 - [implementation](#implementation) (74)
 - [interactive](#interactive) (1)
@@ -39,7 +39,7 @@
 - [meet-in-the-middle](#meet-in-the-middle) (3)
 - [number theory](#number-theory) (33)
 - [probabilities](#probabilities) (3)
-- [shortest paths](#shortest-paths) (22)
+- [shortest paths](#shortest-paths) (23)
 - [sortings](#sortings) (46)
 - [string suffix structures](#string-suffix-structures) (3)
 - [strings](#strings) (21)
@@ -616,6 +616,7 @@
 | 242C | [King's Path](https://codeforces.com/contest/242/problem/C) | 1800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/242/C%20-%20King's%20Path/solution.cpp) |
 | 276E | [Little Girl and Problem on Trees](https://codeforces.com/contest/276/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/276/E%20-%20Little%20Girl%20and%20Problem%20on%20Trees/solution.cpp) |
 | 427C | [Checkposts](https://codeforces.com/contest/427/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/427/C%20-%20Checkposts/solution.cpp) |
+| 449B | [Jzzhu and Cities](https://codeforces.com/contest/449/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/449/B%20-%20Jzzhu%20and%20Cities/solution.cpp) |
 | 510C | [Fox And Names](https://codeforces.com/contest/510/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/510/C%20-%20Fox%20And%20Names/solution.cpp) |
 | 520B | [Two Buttons](https://codeforces.com/contest/520/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/520/B%20-%20Two%20Buttons/solution.cpp) |
 | 555E | [Case of Computer Network](https://codeforces.com/contest/555/problem/E) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/555/E%20-%20Case%20of%20Computer%20Network/solution.cpp) |
@@ -661,6 +662,7 @@
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.cpp) |
 | 279E | [Beautiful Decomposition](https://codeforces.com/contest/279/problem/E) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/279/E%20-%20Beautiful%20Decomposition/solution.cpp) |
 | 432A | [Choosing Teams](https://codeforces.com/contest/432/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/432/A%20-%20Choosing%20Teams/solution.cpp) |
+| 449B | [Jzzhu and Cities](https://codeforces.com/contest/449/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/449/B%20-%20Jzzhu%20and%20Cities/solution.cpp) |
 | 468B | [Two Sets](https://codeforces.com/contest/468/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/468/B%20-%20Two%20Sets/solution.cpp) |
 | 520B | [Two Buttons](https://codeforces.com/contest/520/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/520/B%20-%20Two%20Buttons/solution.cpp) |
 | 609F | [Frogs and mosquitoes](https://codeforces.com/contest/609/problem/F) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/609/F%20-%20Frogs%20and%20mosquitoes/solution.cpp) |
@@ -1033,6 +1035,7 @@
 | 33B | [String Problem](https://codeforces.com/contest/33/problem/B) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/33/B%20-%20String%20Problem/solution.cpp) |
 | 242C | [King's Path](https://codeforces.com/contest/242/problem/C) | 1800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/242/C%20-%20King's%20Path/solution.cpp) |
 | 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
+| 449B | [Jzzhu and Cities](https://codeforces.com/contest/449/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/449/B%20-%20Jzzhu%20and%20Cities/solution.cpp) |
 | 520B | [Two Buttons](https://codeforces.com/contest/520/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/520/B%20-%20Two%20Buttons/solution.cpp) |
 | 598D | [Igor In the Museum](https://codeforces.com/contest/598/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/598/D%20-%20Igor%20In%20the%20Museum/solution.cpp) |
 | 786B | [Legacy](https://codeforces.com/contest/786/problem/B) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/786/B%20-%20Legacy/solution.cpp) |
