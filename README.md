@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 350 | 34 |
+| 351 | 34 |
 
 ---
 
@@ -15,15 +15,15 @@
 - [*special](#special) (2)
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (17)
-- [binary search](#binary-search) (56)
+- [binary search](#binary-search) (57)
 - [bitmasks](#bitmasks) (31)
 - [brute force](#brute-force) (51)
 - [combinatorics](#combinatorics) (13)
 - [constructive algorithms](#constructive-algorithms) (42)
-- [data structures](#data-structures) (84)
+- [data structures](#data-structures) (85)
 - [dfs and similar](#dfs-and-similar) (43)
 - [divide and conquer](#divide-and-conquer) (12)
-- [dp](#dp) (85)
+- [dp](#dp) (86)
 - [dsu](#dsu) (23)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (6)
@@ -113,6 +113,7 @@
 | 1288D | [Minimax Problem](https://codeforces.com/contest/1288/problem/D) | 2000 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1288/D%20-%20Minimax%20Problem/solution.cpp) |
 | 1370E | [Binary Subsequence Rotation](https://codeforces.com/contest/1370/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1370/E%20-%20Binary%20Subsequence%20Rotation/solution.cpp) |
 | 1486B | [Eastern Exhibition](https://codeforces.com/contest/1486/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1486/B%20-%20Eastern%20Exhibition/solution.cpp) |
+| 1486D | [Max Median](https://codeforces.com/contest/1486/problem/D) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1486/D%20-%20Max%20Median/solution.cpp) |
 | 1613C | [Poisoned Dagger](https://codeforces.com/contest/1613/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1613/C%20-%20Poisoned%20Dagger/solution.cpp) |
 | 1633E | [Spanning Tree Queries](https://codeforces.com/contest/1633/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1633/E%20-%20Spanning%20Tree%20Queries/solution.cpp) |
 | 1732C1 | [Sheikh (Easy version)](https://codeforces.com/contest/1732/problem/C1) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1732/C1%20-%20Sheikh%20(Easy%20version)/solution.cpp) |
@@ -361,6 +362,7 @@
 | 1380E | [Merging Towers](https://codeforces.com/contest/1380/problem/E) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1380/E%20-%20Merging%20Towers/solution.cpp) |
 | 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.cpp) |
 | 1485F | [Copy or Prefix Sum](https://codeforces.com/contest/1485/problem/F) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1485/F%20-%20Copy%20or%20Prefix%20Sum/solution.cpp) |
+| 1486D | [Max Median](https://codeforces.com/contest/1486/problem/D) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1486/D%20-%20Max%20Median/solution.cpp) |
 | 1493D | [GCD of an Array](https://codeforces.com/contest/1493/problem/D) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1493/D%20-%20GCD%20of%20an%20Array/solution.cpp) |
 | 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
 | 1526C2 | [Potions (Hard Version)](https://codeforces.com/contest/1526/problem/C2) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1526/C2%20-%20Potions%20(Hard%20Version)/solution.cpp) |
@@ -508,6 +510,7 @@
 | 1472G | [Moving to the Capital](https://codeforces.com/contest/1472/problem/G) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1472/G%20-%20Moving%20to%20the%20Capital/solution.cpp) |
 | 1475B | [New Year's Number](https://codeforces.com/contest/1475/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1475/B%20-%20New%20Year's%20Number/solution.cpp) |
 | 1485F | [Copy or Prefix Sum](https://codeforces.com/contest/1485/problem/F) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1485/F%20-%20Copy%20or%20Prefix%20Sum/solution.cpp) |
+| 1486D | [Max Median](https://codeforces.com/contest/1486/problem/D) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1486/D%20-%20Max%20Median/solution.cpp) |
 | 1499D | [The Number of Pairs](https://codeforces.com/contest/1499/problem/D) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1499/D%20-%20The%20Number%20of%20Pairs/solution.cpp) |
 | 1528A | [Parsa's Humongous Tree](https://codeforces.com/contest/1528/problem/A) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1528/A%20-%20Parsa's%20Humongous%20Tree/solution.cpp) |
 | 1536C | [Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1536/C%20-%20Diluc%20and%20Kaeya/solution.cpp) |
