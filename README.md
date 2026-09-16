@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 351 | 34 |
+| 352 | 34 |
 
 ---
 
@@ -15,13 +15,13 @@
 - [*special](#special) (2)
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (17)
-- [binary search](#binary-search) (57)
-- [bitmasks](#bitmasks) (31)
+- [binary search](#binary-search) (58)
+- [bitmasks](#bitmasks) (32)
 - [brute force](#brute-force) (51)
 - [combinatorics](#combinatorics) (13)
-- [constructive algorithms](#constructive-algorithms) (42)
+- [constructive algorithms](#constructive-algorithms) (43)
 - [data structures](#data-structures) (85)
-- [dfs and similar](#dfs-and-similar) (43)
+- [dfs and similar](#dfs-and-similar) (44)
 - [divide and conquer](#divide-and-conquer) (12)
 - [dp](#dp) (86)
 - [dsu](#dsu) (23)
@@ -29,7 +29,7 @@
 - [games](#games) (6)
 - [geometry](#geometry) (7)
 - [graph matchings](#graph-matchings) (3)
-- [graphs](#graphs) (45)
+- [graphs](#graphs) (46)
 - [greedy](#greedy) (98)
 - [hashing](#hashing) (10)
 - [implementation](#implementation) (75)
@@ -44,7 +44,7 @@
 - [string suffix structures](#string-suffix-structures) (3)
 - [strings](#strings) (21)
 - [ternary search](#ternary-search) (3)
-- [trees](#trees) (36)
+- [trees](#trees) (37)
 - [two pointers](#two-pointers) (25)
 
 ---
@@ -99,6 +99,7 @@
 | 466C | [Number of Ways](https://codeforces.com/contest/466/problem/C) | 1700 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/466/C%20-%20Number%20of%20Ways/solution.cpp) |
 | 474E | [Pillars](https://codeforces.com/contest/474/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/474/E%20-%20Pillars/solution.cpp) |
 | 484E | [Sign on Fence](https://codeforces.com/contest/484/problem/E) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/484/E%20-%20Sign%20on%20Fence/solution.cpp) |
+| 570D | [Tree Requests](https://codeforces.com/contest/570/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/570/D%20-%20Tree%20Requests/solution.cpp) |
 | 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 | 780B | [The Meeting Place Cannot Be Changed](https://codeforces.com/contest/780/problem/B) | 1600 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/780/B%20-%20The%20Meeting%20Place%20Cannot%20Be%20Changed/solution.cpp) |
 | 803D | [Magazine Ad](https://codeforces.com/contest/803/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/803/D%20-%20Magazine%20Ad/solution.cpp) |
@@ -156,6 +157,7 @@
 | 449D | [Jzzhu and Numbers](https://codeforces.com/contest/449/problem/D) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/449/D%20-%20Jzzhu%20and%20Numbers/solution.cpp) |
 | 467B | [Fedor and New Game](https://codeforces.com/contest/467/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/467/B%20-%20Fedor%20and%20New%20Game/solution.cpp) |
 | 550B | [Preparing Olympiad](https://codeforces.com/contest/550/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/550/B%20-%20Preparing%20Olympiad/solution.cpp) |
+| 570D | [Tree Requests](https://codeforces.com/contest/570/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/570/D%20-%20Tree%20Requests/solution.cpp) |
 | 579A | [Raising Bacteria](https://codeforces.com/contest/579/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/579/A%20-%20Raising%20Bacteria/solution.cpp) |
 | 888G | [Xor-MST](https://codeforces.com/contest/888/problem/G) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/888/G%20-%20Xor-MST/solution.cpp) |
 | 986C | [AND Graph](https://codeforces.com/contest/986/problem/C) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/986/C%20-%20AND%20Graph/solution.cpp) |
@@ -267,6 +269,7 @@
 | 467B | [Fedor and New Game](https://codeforces.com/contest/467/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/467/B%20-%20Fedor%20and%20New%20Game/solution.cpp) |
 | 482B | [Interesting Array](https://codeforces.com/contest/482/problem/B) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/482/B%20-%20Interesting%20Array/solution.cpp) |
 | 484E | [Sign on Fence](https://codeforces.com/contest/484/problem/E) | 2500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/484/E%20-%20Sign%20on%20Fence/solution.cpp) |
+| 570D | [Tree Requests](https://codeforces.com/contest/570/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/570/D%20-%20Tree%20Requests/solution.cpp) |
 | 865D | [Buy Low Sell High](https://codeforces.com/contest/865/problem/D) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/865/D%20-%20Buy%20Low%20Sell%20High/solution.cpp) |
 | 888G | [Xor-MST](https://codeforces.com/contest/888/problem/G) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/888/G%20-%20Xor-MST/solution.cpp) |
 | 1088D | [Ehab and another another xor problem](https://codeforces.com/contest/1088/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1088/D%20-%20Ehab%20and%20another%20another%20xor%20problem/solution.cpp) |
@@ -410,6 +413,7 @@
 | 510C | [Fox And Names](https://codeforces.com/contest/510/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/510/C%20-%20Fox%20And%20Names/solution.cpp) |
 | 520B | [Two Buttons](https://codeforces.com/contest/520/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/520/B%20-%20Two%20Buttons/solution.cpp) |
 | 555E | [Case of Computer Network](https://codeforces.com/contest/555/problem/E) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/555/E%20-%20Case%20of%20Computer%20Network/solution.cpp) |
+| 570D | [Tree Requests](https://codeforces.com/contest/570/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/570/D%20-%20Tree%20Requests/solution.cpp) |
 | 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 598D | [Igor In the Museum](https://codeforces.com/contest/598/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/598/D%20-%20Igor%20In%20the%20Museum/solution.cpp) |
 | 600E | [Lomsat gelral](https://codeforces.com/contest/600/problem/E) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/600/E%20-%20Lomsat%20gelral/solution.cpp) |
@@ -628,6 +632,7 @@
 | 510C | [Fox And Names](https://codeforces.com/contest/510/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/510/C%20-%20Fox%20And%20Names/solution.cpp) |
 | 520B | [Two Buttons](https://codeforces.com/contest/520/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/520/B%20-%20Two%20Buttons/solution.cpp) |
 | 555E | [Case of Computer Network](https://codeforces.com/contest/555/problem/E) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/555/E%20-%20Case%20of%20Computer%20Network/solution.cpp) |
+| 570D | [Tree Requests](https://codeforces.com/contest/570/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/570/D%20-%20Tree%20Requests/solution.cpp) |
 | 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 598D | [Igor In the Museum](https://codeforces.com/contest/598/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/598/D%20-%20Igor%20In%20the%20Museum/solution.cpp) |
 | 609E | [Minimum spanning tree for each edge](https://codeforces.com/contest/609/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/609/E%20-%20Minimum%20spanning%20tree%20for%20each%20edge/solution.cpp) |
@@ -1172,6 +1177,7 @@
 | 474E | [Pillars](https://codeforces.com/contest/474/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/474/E%20-%20Pillars/solution.cpp) |
 | 482B | [Interesting Array](https://codeforces.com/contest/482/problem/B) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/482/B%20-%20Interesting%20Array/solution.cpp) |
 | 555E | [Case of Computer Network](https://codeforces.com/contest/555/problem/E) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/555/E%20-%20Case%20of%20Computer%20Network/solution.cpp) |
+| 570D | [Tree Requests](https://codeforces.com/contest/570/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/570/D%20-%20Tree%20Requests/solution.cpp) |
 | 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 600E | [Lomsat gelral](https://codeforces.com/contest/600/problem/E) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/600/E%20-%20Lomsat%20gelral/solution.cpp) |
 | 609E | [Minimum spanning tree for each edge](https://codeforces.com/contest/609/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/609/E%20-%20Minimum%20spanning%20tree%20for%20each%20edge/solution.cpp) |
