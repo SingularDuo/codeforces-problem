@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 352 | 34 |
+| 353 | 34 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (2)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (17)
+- [Uncategorized](#uncategorized) (18)
 - [binary search](#binary-search) (58)
 - [bitmasks](#bitmasks) (32)
 - [brute force](#brute-force) (51)
@@ -71,6 +71,7 @@
 | 529C | [Rooks and Rectangles](https://codeforces.com/contest/529/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/529/C%20-%20Rooks%20and%20Rectangles/solution.cpp) |
 | 782B | [The Meeting Place Cannot Be Changed](https://codeforces.com/contest/782/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/782/B%20-%20The%20Meeting%20Place%20Cannot%20Be%20Changed/solution.cpp) |
 | 819A | [Mister B and Boring Game](https://codeforces.com/contest/819/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/819/A%20-%20Mister%20B%20and%20Boring%20Game/solution.cpp) |
+| 1292D | [Chaotic V.](https://codeforces.com/contest/1292/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1292/D%20-%20Chaotic%20V./solution.cpp) |
 | 2130C | [Double Perspective](https://codeforces.com/contest/2130/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2130/C%20-%20Double%20Perspective/solution.cpp) |
 | 2130D | [Stay or Mirror](https://codeforces.com/contest/2130/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2130/D%20-%20Stay%20or%20Mirror/solution.cpp) |
 | 2258A | [Odd Eraser](https://codeforces.com/contest/2258/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2258/A%20-%20Odd%20Eraser/solution.cpp) |
