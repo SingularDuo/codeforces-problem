@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 354 | 34 |
+| 355 | 34 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [combinatorics](#combinatorics) (13)
 - [constructive algorithms](#constructive-algorithms) (43)
 - [data structures](#data-structures) (85)
-- [dfs and similar](#dfs-and-similar) (44)
+- [dfs and similar](#dfs-and-similar) (45)
 - [divide and conquer](#divide-and-conquer) (12)
 - [dp](#dp) (86)
 - [dsu](#dsu) (23)
@@ -29,7 +29,7 @@
 - [games](#games) (6)
 - [geometry](#geometry) (7)
 - [graph matchings](#graph-matchings) (3)
-- [graphs](#graphs) (46)
+- [graphs](#graphs) (47)
 - [greedy](#greedy) (98)
 - [hashing](#hashing) (10)
 - [implementation](#implementation) (75)
@@ -403,6 +403,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/14/D%20-%20Two%20Paths/solution.cpp) |
+| 118E | [Bertown roads](https://codeforces.com/contest/118/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/118/E%20-%20Bertown%20roads/solution.cpp) |
 | 160D | [Edges in MST](https://codeforces.com/contest/160/problem/D) | 2300 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/160/D%20-%20Edges%20in%20MST/solution.cpp) |
 | 161D | [Distance in Tree](https://codeforces.com/contest/161/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/161/D%20-%20Distance%20in%20Tree/solution.cpp) |
 | 208E | [Blood Cousins](https://codeforces.com/contest/208/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/208/E%20-%20Blood%20Cousins/solution.cpp) |
@@ -626,6 +627,7 @@
 |---|---------|------------|----------|
 | 14D | [Two Paths](https://codeforces.com/contest/14/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/14/D%20-%20Two%20Paths/solution.cpp) |
 | 20C | [Dijkstra?](https://codeforces.com/contest/20/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/20/C%20-%20Dijkstra%3F/solution.cpp) |
+| 118E | [Bertown roads](https://codeforces.com/contest/118/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/118/E%20-%20Bertown%20roads/solution.cpp) |
 | 160D | [Edges in MST](https://codeforces.com/contest/160/problem/D) | 2300 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/160/D%20-%20Edges%20in%20MST/solution.cpp) |
 | 242C | [King's Path](https://codeforces.com/contest/242/problem/C) | 1800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/242/C%20-%20King's%20Path/solution.cpp) |
 | 276E | [Little Girl and Problem on Trees](https://codeforces.com/contest/276/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/276/E%20-%20Little%20Girl%20and%20Problem%20on%20Trees/solution.cpp) |
