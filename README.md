@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 353 | 34 |
+| 354 | 34 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (2)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (18)
+- [Uncategorized](#uncategorized) (19)
 - [binary search](#binary-search) (58)
 - [bitmasks](#bitmasks) (32)
 - [brute force](#brute-force) (51)
@@ -84,6 +84,7 @@
 | 101933D | [Delivery Delays](https://codeforces.com/contest/101933/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/101933/D%20-%20Delivery%20Delays/solution.cpp) |
 | 102331F | [Fast Spanning Tree](https://codeforces.com/contest/102331/problem/F) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/102331/F%20-%20Fast%20Spanning%20Tree/solution.cpp) |
 | 102951C | [LCS on Permutations](https://codeforces.com/contest/102951/problem/C) | Unrated | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/102951/C%20-%20LCS%20on%20Permutations/solution.cpp) |
+| 103371K | [Three Competitions](https://codeforces.com/contest/103371/problem/K) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/103371/K%20-%20Three%20Competitions/solution.cpp) |
 
 ### binary search
 
