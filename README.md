@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 356 | 34 |
+| 357 | 34 |
 
 ---
 
@@ -21,18 +21,18 @@
 - [combinatorics](#combinatorics) (13)
 - [constructive algorithms](#constructive-algorithms) (43)
 - [data structures](#data-structures) (86)
-- [dfs and similar](#dfs-and-similar) (46)
+- [dfs and similar](#dfs-and-similar) (47)
 - [divide and conquer](#divide-and-conquer) (12)
-- [dp](#dp) (86)
+- [dp](#dp) (87)
 - [dsu](#dsu) (23)
 - [expression parsing](#expression-parsing) (1)
-- [games](#games) (6)
+- [games](#games) (7)
 - [geometry](#geometry) (7)
 - [graph matchings](#graph-matchings) (3)
 - [graphs](#graphs) (48)
 - [greedy](#greedy) (98)
 - [hashing](#hashing) (10)
-- [implementation](#implementation) (75)
+- [implementation](#implementation) (76)
 - [interactive](#interactive) (1)
 - [math](#math) (103)
 - [matrices](#matrices) (1)
@@ -42,9 +42,9 @@
 - [shortest paths](#shortest-paths) (23)
 - [sortings](#sortings) (46)
 - [string suffix structures](#string-suffix-structures) (3)
-- [strings](#strings) (21)
+- [strings](#strings) (22)
 - [ternary search](#ternary-search) (3)
-- [trees](#trees) (38)
+- [trees](#trees) (39)
 - [two pointers](#two-pointers) (25)
 
 ---
@@ -413,6 +413,7 @@
 | 375D | [Tree and Queries](https://codeforces.com/contest/375/problem/D) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/375/D%20-%20Tree%20and%20Queries/solution.cpp) |
 | 383C | [Propagating tree](https://codeforces.com/contest/383/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/383/C%20-%20Propagating%20tree/solution.cpp) |
 | 427C | [Checkposts](https://codeforces.com/contest/427/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/427/C%20-%20Checkposts/solution.cpp) |
+| 455B | [A Lot of Games](https://codeforces.com/contest/455/problem/B) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/455/B%20-%20A%20Lot%20of%20Games/solution.cpp) |
 | 468B | [Two Sets](https://codeforces.com/contest/468/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/468/B%20-%20Two%20Sets/solution.cpp) |
 | 475E | [Strongly Connected City 2](https://codeforces.com/contest/475/problem/E) | 2700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/475/E%20-%20Strongly%20Connected%20City%202/solution.cpp) |
 | 510C | [Fox And Names](https://codeforces.com/contest/510/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/510/C%20-%20Fox%20And%20Names/solution.cpp) |
@@ -490,6 +491,7 @@
 | 432D | [Prefixes and Suffixes](https://codeforces.com/contest/432/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/432/D%20-%20Prefixes%20and%20Suffixes/solution.cpp) |
 | 449D | [Jzzhu and Numbers](https://codeforces.com/contest/449/problem/D) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/449/D%20-%20Jzzhu%20and%20Numbers/solution.cpp) |
 | 455A | [Boredom](https://codeforces.com/contest/455/problem/A) | 1500 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/455/A%20-%20Boredom/solution.cpp) |
+| 455B | [A Lot of Games](https://codeforces.com/contest/455/problem/B) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/455/B%20-%20A%20Lot%20of%20Games/solution.cpp) |
 | 466C | [Number of Ways](https://codeforces.com/contest/466/problem/C) | 1700 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/466/C%20-%20Number%20of%20Ways/solution.cpp) |
 | 474D | [Flowers](https://codeforces.com/contest/474/problem/D) | 1700 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/474/D%20-%20Flowers/solution.cpp) |
 | 474E | [Pillars](https://codeforces.com/contest/474/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/474/E%20-%20Pillars/solution.cpp) |
@@ -597,6 +599,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 279E | [Beautiful Decomposition](https://codeforces.com/contest/279/problem/E) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/279/E%20-%20Beautiful%20Decomposition/solution.cpp) |
+| 455B | [A Lot of Games](https://codeforces.com/contest/455/problem/B) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/455/B%20-%20A%20Lot%20of%20Games/solution.cpp) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
 | 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2104/C%20-%20Card%20Game/solution.cpp) |
 | 2107B | [Apples in Boxes](https://codeforces.com/contest/2107/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/2107/B%20-%20Apples%20in%20Boxes/solution.cpp) |
@@ -824,6 +827,7 @@
 | 336A | [Vasily the Bear and Triangle](https://codeforces.com/contest/336/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/336/A%20-%20Vasily%20the%20Bear%20and%20Triangle/solution.cpp) |
 | 432A | [Choosing Teams](https://codeforces.com/contest/432/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/432/A%20-%20Choosing%20Teams/solution.cpp) |
 | 450B | [Jzzhu and Sequences](https://codeforces.com/contest/450/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/450/B%20-%20Jzzhu%20and%20Sequences/solution.cpp) |
+| 455B | [A Lot of Games](https://codeforces.com/contest/455/problem/B) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/455/B%20-%20A%20Lot%20of%20Games/solution.cpp) |
 | 467B | [Fedor and New Game](https://codeforces.com/contest/467/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/467/B%20-%20Fedor%20and%20New%20Game/solution.cpp) |
 | 520B | [Two Buttons](https://codeforces.com/contest/520/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/520/B%20-%20Two%20Buttons/solution.cpp) |
 | 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
@@ -1143,6 +1147,7 @@
 | 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.cpp) |
 | 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/126/B%20-%20Password/solution.cpp) |
 | 432D | [Prefixes and Suffixes](https://codeforces.com/contest/432/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/432/D%20-%20Prefixes%20and%20Suffixes/solution.cpp) |
+| 455B | [A Lot of Games](https://codeforces.com/contest/455/problem/B) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/455/B%20-%20A%20Lot%20of%20Games/solution.cpp) |
 | 814C | [An impassioned circulation of affection](https://codeforces.com/contest/814/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/814/C%20-%20An%20impassioned%20circulation%20of%20affection/solution.cpp) |
 | 835D | [Palindromic characteristics](https://codeforces.com/contest/835/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/835/D%20-%20Palindromic%20characteristics/solution.cpp) |
 | 1360F | [Spy-string](https://codeforces.com/contest/1360/problem/F) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1360/F%20-%20Spy-string/solution.cpp) |
@@ -1182,6 +1187,7 @@
 | 343D | [Water Tree](https://codeforces.com/contest/343/problem/D) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/343/D%20-%20Water%20Tree/solution.cpp) |
 | 375D | [Tree and Queries](https://codeforces.com/contest/375/problem/D) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/375/D%20-%20Tree%20and%20Queries/solution.cpp) |
 | 383C | [Propagating tree](https://codeforces.com/contest/383/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/383/C%20-%20Propagating%20tree/solution.cpp) |
+| 455B | [A Lot of Games](https://codeforces.com/contest/455/problem/B) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/455/B%20-%20A%20Lot%20of%20Games/solution.cpp) |
 | 474E | [Pillars](https://codeforces.com/contest/474/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/474/E%20-%20Pillars/solution.cpp) |
 | 482B | [Interesting Array](https://codeforces.com/contest/482/problem/B) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/482/B%20-%20Interesting%20Array/solution.cpp) |
 | 555E | [Case of Computer Network](https://codeforces.com/contest/555/problem/E) | 2800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/555/E%20-%20Case%20of%20Computer%20Network/solution.cpp) |
