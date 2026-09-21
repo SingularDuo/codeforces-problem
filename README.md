@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 358 | 34 |
+| 359 | 34 |
 
 ---
 
@@ -42,7 +42,7 @@
 - [shortest paths](#shortest-paths) (23)
 - [sortings](#sortings) (46)
 - [string suffix structures](#string-suffix-structures) (3)
-- [strings](#strings) (22)
+- [strings](#strings) (23)
 - [ternary search](#ternary-search) (3)
 - [trees](#trees) (39)
 - [two pointers](#two-pointers) (25)
@@ -1145,6 +1145,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 5C | [Longest Regular Bracket Sequence](https://codeforces.com/contest/5/problem/C) | 1900 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/5/C%20-%20Longest%20Regular%20Bracket%20Sequence/solution.cpp) |
+| 71A | [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/71/A%20-%20Way%20Too%20Long%20Words/solution.cpp) |
 | 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.cpp) |
 | 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/126/B%20-%20Password/solution.cpp) |
 | 432D | [Prefixes and Suffixes](https://codeforces.com/contest/432/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/432/D%20-%20Prefixes%20and%20Suffixes/solution.cpp) |
