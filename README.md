@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 359 | 34 |
+| 360 | 34 |
 
 ---
 
@@ -20,10 +20,10 @@
 - [brute force](#brute-force) (51)
 - [combinatorics](#combinatorics) (13)
 - [constructive algorithms](#constructive-algorithms) (43)
-- [data structures](#data-structures) (86)
+- [data structures](#data-structures) (87)
 - [dfs and similar](#dfs-and-similar) (47)
 - [divide and conquer](#divide-and-conquer) (12)
-- [dp](#dp) (87)
+- [dp](#dp) (88)
 - [dsu](#dsu) (23)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (7)
@@ -376,6 +376,7 @@
 | 1536C | [Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1536/C%20-%20Diluc%20and%20Kaeya/solution.cpp) |
 | 1619E | [MEX and Increments](https://codeforces.com/contest/1619/problem/E) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1619/E%20-%20MEX%20and%20Increments/solution.cpp) |
 | 1633E | [Spanning Tree Queries](https://codeforces.com/contest/1633/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1633/E%20-%20Spanning%20Tree%20Queries/solution.cpp) |
+| 1667B | [Optimal Partition](https://codeforces.com/contest/1667/problem/B) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1667/B%20-%20Optimal%20Partition/solution.cpp) |
 | 1715E | [Long Way Home](https://codeforces.com/contest/1715/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1715/E%20-%20Long%20Way%20Home/solution.cpp) |
 | 1801D | [The way home](https://codeforces.com/contest/1801/problem/D) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1801/D%20-%20The%20way%20home/solution.cpp) |
 | 1806E | [Tree Master](https://codeforces.com/contest/1806/problem/E) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1806/E%20-%20Tree%20Master/solution.cpp) |
@@ -528,6 +529,7 @@
 | 1536C | [Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1536/C%20-%20Diluc%20and%20Kaeya/solution.cpp) |
 | 1582F1 | [Korney Korneevich and XOR (easy version)](https://codeforces.com/contest/1582/problem/F1) | 1800 | [C++20 (GCC 13-64)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1582/F1%20-%20Korney%20Korneevich%20and%20XOR%20(easy%20version)/solution.cpp) |
 | 1619E | [MEX and Increments](https://codeforces.com/contest/1619/problem/E) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1619/E%20-%20MEX%20and%20Increments/solution.cpp) |
+| 1667B | [Optimal Partition](https://codeforces.com/contest/1667/problem/B) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1667/B%20-%20Optimal%20Partition/solution.cpp) |
 | 1689C | [Infected Tree](https://codeforces.com/contest/1689/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1689/C%20-%20Infected%20Tree/solution.cpp) |
 | 1715E | [Long Way Home](https://codeforces.com/contest/1715/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1715/E%20-%20Long%20Way%20Home/solution.cpp) |
 | 1766C | [Hamiltonian Wall](https://codeforces.com/contest/1766/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/SingularDuo/codeforces-problem/blob/HEAD/1766/C%20-%20Hamiltonian%20Wall/solution.cpp) |
