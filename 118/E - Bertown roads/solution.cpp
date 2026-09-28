@@ -233,4 +233,4 @@ _______TOISECOGIAIVOI_______
     for(int i = 1; i <= m; i++) cout << direct[i].fi << " " << direct[i].se << endl;
     TIMER(start);
     KILL();
-}
+}//hhahaha
